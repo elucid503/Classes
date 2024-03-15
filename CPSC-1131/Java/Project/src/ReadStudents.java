@@ -1,12 +1,10 @@
-package semesterProject;
-
 import java.io.File;
 import java.util.Scanner;
 
 public final class ReadStudents {
 
 	/*
-	 * The purpose of this class is to read the random_students_data.csv file
+	 * The purpose of this class is to read the Data.csv file
 	 * The format of the file is text with comma separated fields.
 	 * 
 	 *  Description of the fields:
@@ -30,7 +28,7 @@ public final class ReadStudents {
 		Scanner rowScanner;
 
 		// trying to open the file
-		try (Scanner scanner = new Scanner(new File("src/random_students_data.csv"));) {
+		try (Scanner scanner = new Scanner(new File("C:\\Users\\Elucid\\Documents\\Classes\\CPSC-1131\\Java\\Project\\src\\Data.csv"))) {
 
 			int i = 0;
 
