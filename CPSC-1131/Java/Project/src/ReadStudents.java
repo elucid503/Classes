@@ -1,115 +1,109 @@
+// Importing std libraries
+
 import java.io.File;
 import java.util.Scanner;
+import java.nio.file.Paths;
+import java.nio.file.Path;
+import java.util.Arrays;
 
-public final class ReadStudents {
+class FilePathUtil { // Useful for preventing frustration
+	public static String GetAbsolutePath(String relativePath) {
 
-	/*
-	 * The purpose of this class is to read the Data.csv file
-	 * The format of the file is text with comma separated fields.
-	 * 
-	 *  Description of the fields:
-	 *  Student Id (integer),First Name (string),Last Name (string),Score in Science (integer),Score in History (integer),Score in Mathematics (integer),Score in English (integer)
-	 *  
-	 *  each column will be stored into a separate array
-	 * 
-	 */
+		Path path = Paths.get(relativePath);
+		return path.toAbsolutePath().toString();
 
-	private static int[] studentId = new int[200];
-	private static String[] firstName = new String[200];
-	private static String[] lastName = new String[200];
-	private static int[] scienceScore = new int[200];
-	private static int[] historyScore = new int[200];
-	private static int[] mathematicsScore = new int[200];
-	private static int[] englishScore = new int[200];
+	}
+}
 
-	public ReadStudents() {
-		
-		// scanner to read each token of a line
-		Scanner rowScanner;
+public class ReadStudents {
+	private static final int MAX_STUDENTS = 200;
 
-		// trying to open the file
-		try (Scanner scanner = new Scanner(new File("C:\\Users\\Elucid\\Documents\\Classes\\CPSC-1131\\Java\\Project\\src\\Data.csv"))) {
+	private static final int[] StudentIDs = new int[MAX_STUDENTS];
+	private static final String[] FirstNames = new String[MAX_STUDENTS];
+	private static final String[] LastNames = new String[MAX_STUDENTS];
+	private static final int[] ScienceScores = new int[MAX_STUDENTS];
+	private static final int[] HistoryScores = new int[MAX_STUDENTS];
+	private static final int[] MathematicsScores = new int[MAX_STUDENTS];
+	private static final int[] EnglishScores = new int[MAX_STUDENTS];
+	private static int NumOfStudents = 0;
 
-			int i = 0;
+	// Initialize the arrays with the data from the file
+	public static void LoadData() {
 
-			//read line by line
-			while (scanner.hasNextLine()) {
+		try (Scanner scanner = new Scanner(new File(FilePathUtil.GetAbsolutePath("Project/src/Data.csv")))) {
 
-				rowScanner = new Scanner( scanner.nextLine() );
-				rowScanner.useDelimiter(",");
+			while (scanner.hasNextLine() && NumOfStudents < MAX_STUDENTS) {
 
-				studentId[i] = Integer.parseInt( rowScanner.next() );
-				firstName[i] = rowScanner.next();
-				lastName[i] = rowScanner.next();
-				scienceScore[i] = Integer.parseInt( rowScanner.next() );
-				historyScore[i] = Integer.parseInt( rowScanner.next() );
-				mathematicsScore[i] = Integer.parseInt( rowScanner.next() );
-				englishScore[i] = Integer.parseInt( rowScanner.next() );
+				String Line = scanner.nextLine();
+				String[] Fields = Line.split(",");
 
-				i++;
+				if (Fields.length == 7) {
+
+					// Set data
+
+					StudentIDs[NumOfStudents] = Integer.parseInt(Fields[0]);
+					FirstNames[NumOfStudents] = Fields[1];
+					LastNames[NumOfStudents] = Fields[2];
+					ScienceScores[NumOfStudents] = Integer.parseInt(Fields[3]);
+					HistoryScores[NumOfStudents] = Integer.parseInt(Fields[4]);
+					MathematicsScores[NumOfStudents] = Integer.parseInt(Fields[5]);
+					EnglishScores[NumOfStudents] = Integer.parseInt(Fields[6]);
+
+					NumOfStudents++;
+
+				}
 
 			}
-		}catch( Exception e ) {
-			System.out.println("Not sure where the file is ...");
+
+		} catch (Exception e) {
+
+			System.out.println("Error reading the file: " + e.getMessage());
+
 		}
 
 	}
 
-	
-	/*
-	 * returns array of student IDs
-	 */
-	public static int[] getStudentId() {
-		return studentId;
+	// Return shallow copies of the arrays
+
+	public static int[] GetStudentIDs() {
+
+		return Arrays.copyOf(StudentIDs, NumOfStudents);
+
 	}
 
-	
-	/*
-	 * returns array of student first names
-	 */
-	public static String[] getFirstName() {
-		return firstName;
-	}
-	
-	
-	/*
-	 * returns array of student last names
-	 */
-	public static String[] getLastName() {
-		return lastName;
-	}
-	
-	
-	/*
-	 * returns array of student score in science
-	 */
-	public static int[] getScienceScore() {
-		return scienceScore;
-	}
-	
-	
-	/*
-	 * returns array of student score in history
-	 */
-	public static int[] getHistoryScore() {
-		return historyScore;
-	}
-	
-	
-	/*
-	 * returns array of student score in mathematics
-	 */
-	public static int[] getMathematicsScore() {
-		return mathematicsScore;
-	}
-	
-	
-	/*
-	 * returns array of student score in english
-	 */
-	public static int[] getEnglishScore() {
-		return englishScore;
+	public static String[] GetFirstNames() {
+
+		return Arrays.copyOf(FirstNames, NumOfStudents);
+
 	}
 
-	
+	public static String[] GetLastNames() {
+
+		return Arrays.copyOf(LastNames, NumOfStudents);
+
+	}
+
+	public static int[] GetScienceScores() {
+
+		return Arrays.copyOf(ScienceScores, NumOfStudents);
+	}
+
+	public static int[] GetHistoryScores() {
+
+		return Arrays.copyOf(HistoryScores, NumOfStudents);
+
+	}
+
+	public static int[] GetMathematicsScores() {
+
+		return Arrays.copyOf(MathematicsScores, NumOfStudents);
+
+	}
+
+	public static int[] GetEnglishScores() {
+
+		return Arrays.copyOf(EnglishScores, NumOfStudents);
+
+	}
+
 }
