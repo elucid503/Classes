@@ -108,31 +108,40 @@ public class StudentAnalyzer {
     }
 
     public void DisplayStudentInfo() {
+
         System.out.println("Student Information:");
 
         for (int i = 0; i < StudentIDs.length; i++) {
-            System.out.printf("ID: %d, Name: %s %s, Total Score: %d, Percentage: %.2f%%\n",
-                    StudentIDs[i], FirstNames[i], LastNames[i], TotalScores[i], Percentages[i]);
+
+            System.out.printf("ID: %d, Name: %s %s, Total Score: %d, Percentage: %.2f%%\n", StudentIDs[i], FirstNames[i], LastNames[i], TotalScores[i], Percentages[i]);
+
         }
+
     }
 
     private void CalculateTotalScores() {
+
         for (int i = 0; i < Scores[0].length; i++) {
+
             int sum = 0;
 
             for (int j = 0; j < Scores.length; j++) {
+
                 sum += Scores[j][i];
+
             }
 
             TotalScores[i] = sum;
+
         }
+
     }
 
     public void DisplayTotalScores() {
 
         System.out.println("Total Scores:");
 
-        for (int i = 0; i < StudentIDs.length; i++) {
+        for (int i = 0; i < StudentIDs.length; i++) { // Could also use an enhanced for loop, I prefer the implicit index
 
             System.out.printf("ID: %d, Total Score: %d\n", StudentIDs[i], TotalScores[i]);
 
@@ -141,11 +150,15 @@ public class StudentAnalyzer {
     }
 
     private void CalculatePercentages() {
+
         int TotalSubjects = Scores.length;
 
         for (int i = 0; i < TotalScores.length; i++) {
+
             Percentages[i] = (double) TotalScores[i] / TotalSubjects;
+
         }
+
     }
 
     public void DisplayPercentages() {
