@@ -20,7 +20,7 @@ int main() {
 
     scanf("%d", &NumberChosen);
 
-    HelloGreetingFun(NumberChosen); // Any other param type would require a pointer
+    HelloGreetingFun(NumberChosen); // Most other param types would require a pointer
 
     int Numbers[] = {1, 2, 3};
 
