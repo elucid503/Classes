@@ -7,10 +7,10 @@ int main() {
 
     // Test strings for StrCompare
 
-    char *FirstTestStr = "This is a regular string, nothing special except pointers.\0";
-    char *EqualToFirst = "This is a regular string, nothing special except pointers.\0";
+    char *FirstTestStr = "This is a regular string, nothing special except pointers.";
+    char *EqualToFirst = "This is a regular string, nothing special except pointers.";
 
-    char *SecondTestStr = "This is still a regular test string.\0";
+    char *SecondTestStr = "This is still a regular test string.";
     char *BadString = "Segfault";
 
     if (StrCompare(FirstTestStr, EqualToFirst) != -1) {
