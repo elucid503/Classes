@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int StrCompare(char *First, char *Second);
-char *YourNameReturned();
+char* YourNameReturned();
 
 int main() {
 
