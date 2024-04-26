@@ -29,8 +29,8 @@ int main() {
 
 void ConstantTester() {
 
-    printf("My favorite number is %d", MyFavoriteNumber);
-    printf("My favorite color is %s", MyFavoriteColor);
+    printf("My favorite number is %d\n", MyFavoriteNumber);
+    printf("My favorite color is %s\n", MyFavoriteColor);
 
 }
 
