@@ -22,7 +22,7 @@ public class TicketInterface {
 
         }
 
-        ticketMachine = new ExtendedTicketMachine(cost);
+        ticketMachine = new ExtendedTicketMachine(cost, 0);
 
         System.out.printf("Welcome. Each ticket is %d dollars.\nEnter how many tickets you want to buy: ", ticketMachine.getPriceOfTicket());
 

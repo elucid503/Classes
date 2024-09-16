@@ -10,22 +10,44 @@ public class ExtendedTicketMachine {
 
     private int balance;
 
+    // Name
+
+    public String name;
+
     // Constructor
 
     /**
      * Creates a 'ticket machine' with a given price for each ticket
      * Note that the price must be greater than zero
      */
-    public ExtendedTicketMachine(int cost) {
+    public ExtendedTicketMachine(int val) {
 
-        if (cost <= 0) {
+        if (val <= 0) {
 
             throw new IllegalArgumentException("Cost must be greater than zero.");
 
         }
 
-        priceOfTicket = cost;
+        priceOfTicket = val;
         balance = 0;
+
+    }
+
+    // Overloaded constructor
+
+    public ExtendedTicketMachine(int cost, int initialBalance) {
+
+        this(cost);
+        this.balance = initialBalance;
+
+    }
+
+    // For name
+
+    public ExtendedTicketMachine(int cost, int initialBalance, String name) {
+
+        this(cost, initialBalance);
+        this.name = name;
 
     }
 
