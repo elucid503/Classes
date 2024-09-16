@@ -62,10 +62,14 @@ class Book {
 
         Book book = new Book("Carson Gross", "Hypermedia Systems");
 
+        System.out.println(book.getAuthor());
+        System.out.println(book.getTitle());
+        System.out.println(book.getBookID());
+
         book.setBookID(503);
 
-        System.out.println(book.isBook(503));
-        System.out.println(book.isBook(42));
+        System.out.println("Book ID 503 is valid?: " + book.isBook(503));
+        System.out.println("Book ID 42 is valid?: " + book.isBook(42));
 
     }
 
