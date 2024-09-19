@@ -1,5 +1,3 @@
- 
-
 public class ExtendedTicketMachine {
 
     // The price of a ticket
