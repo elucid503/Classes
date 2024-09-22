@@ -131,50 +131,50 @@ public class Superhero {
 
         // Create two Superheroes
 
-        Superhero hero1 = new Superhero("Professor X", 65, "Telepathy", false);
-        Superhero hero2 = new Superhero("Batman", 45, "Rich", false);
+        Superhero profX = new Superhero("Professor X", 65, "Telepathy", false);
+        Superhero batman = new Superhero("Batman", 45, "Rich", false);
 
         System.out.println("------- Superhero 1 -------");
 
         // Decided to get some practice in with printf instead of println
 
-        System.out.printf("Name: %s\n", hero1.getName());
-        System.out.printf("Strength Level: %d\n", hero1.getStrengthLevel());
-        System.out.printf("Super Power: %s\n", hero1.getSuperPower());
-        System.out.printf("Can Fly: %s\n", hero1.getCanFly() ? "Yes" : "No"); // inline if statement based on bool return from Superhero.getCanFly
+        System.out.printf("Name: %s\n", profX.getName());
+        System.out.printf("Strength Level: %d\n", profX.getStrengthLevel());
+        System.out.printf("Super Power: %s\n", profX.getSuperPower());
+        System.out.printf("Can Fly: %s\n", profX.getCanFly() ? "Yes" : "No"); // inline if statement based on bool return from Superhero.getCanFly
 
         System.out.println("------- Superhero 2 -------");
 
-        System.out.printf("Name: %s\n", hero2.getName());
-        System.out.printf("Strength Level: %d\n", hero2.getStrengthLevel());
-        System.out.printf("Super Power: %s\n", hero2.getSuperPower());
-        System.out.printf("Can Fly: %s\n", hero2.getCanFly() ? "Yes" : "No");
+        System.out.printf("Name: %s\n", batman.getName());
+        System.out.printf("Strength Level: %d\n", batman.getStrengthLevel());
+        System.out.printf("Super Power: %s\n", batman.getSuperPower());
+        System.out.printf("Can Fly: %s\n", batman.getCanFly() ? "Yes" : "No");
 
         // Train the first Superhero
 
-        hero1.train(100);
+        profX.train(100);
 
         System.out.println("------- Superhero 1 (After Training 100 hrs) -------");
 
-        System.out.printf("Strength Level: %d\n", hero1.getStrengthLevel());
+        System.out.printf("Strength Level: %d\n", profX.getStrengthLevel());
 
         // Train the second Superhero
 
-        hero2.train(125);
+        batman.train(125);
 
         System.out.println("------- Superhero 2 (After Training 125 hrs) -------");
 
-        System.out.printf("Strength Level: %d\n", hero2.getStrengthLevel());
+        System.out.printf("Strength Level: %d\n", batman.getStrengthLevel());
 
         // Battle the two Superheroes
 
-        boolean result = hero1.battle(hero2);
+        boolean result = profX.battle(batman);
 
         System.out.println("------- Battle -------");
 
-        System.out.printf("%s vs %s\n", hero1.getName(), hero2.getName());
+        System.out.printf("%s vs %s\n", profX.getName(), batman.getName());
 
-        System.out.printf("Winner: %s\n", result ? hero1.getName() : hero2.getName()); // this is a bit arbitrary, but good to remember that class 1 will be our initial superhero, and 2 would be the opponent
+        System.out.printf("Winner: %s\n", result ? profX.getName() : batman.getName());
 
     }
 
