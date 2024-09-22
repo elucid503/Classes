@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" filepath="$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks/Homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Workshop.iml" filepath="$PROJECT_DIR$/.idea/Workshop.iml" />
     </modules>
