@@ -22,8 +22,8 @@ public class ExtendedTicketMachine {
 
         }
 
-        priceOfTicket = cost;
-        balance = 0;
+        this.priceOfTicket = cost;
+        this.balance = 0;
 
     }
 
@@ -34,7 +34,7 @@ public class ExtendedTicketMachine {
      */
     public int getPriceOfTicket() {
 
-        return priceOfTicket;
+        return this.priceOfTicket;
 
     }
 
@@ -43,7 +43,7 @@ public class ExtendedTicketMachine {
      */
     public int getBalance() {
 
-        return balance;
+        return this.balance;
 
     }
 
@@ -54,7 +54,7 @@ public class ExtendedTicketMachine {
      */
     public void addMoney(int amount) {
 
-        balance += amount;
+        this.balance += amount;
 
     }
 
@@ -62,9 +62,23 @@ public class ExtendedTicketMachine {
      * Remove money from the balance
      */
 
-    public void removeMoney(int amount) {
+    public void refundMoney(int amount) {
 
-        balance -= amount;
+        this.balance -= amount;
+
+    }
+
+    /**
+     *
+     * Refunds all remaining money
+     *
+     */
+
+    public int refundChange() {
+
+        int toReturn = this.balance; // temp holder
+        this.balance = 0;
+        return toReturn;
 
     }
 
@@ -101,13 +115,13 @@ public class ExtendedTicketMachine {
      */
     private boolean buyTicket() {
 
-        if (balance < priceOfTicket) {
+        if (this.balance < priceOfTicket) {
 
             return false;
 
         } else {
 
-            balance -= priceOfTicket;
+            this.balance -= priceOfTicket;
             return true;
 
         }

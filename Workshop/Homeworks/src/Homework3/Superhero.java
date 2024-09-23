@@ -1,4 +1,4 @@
-// By Paul Ujlaky, 9/22/24
+package Homework3;// By Paul Ujlaky, 9/22/24
 
 // Tried out a lambda for the formula, some more notes in the Superhero.train function
 
