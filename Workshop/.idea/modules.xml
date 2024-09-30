@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" filepath="$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Homeworks/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks/Homeworks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/InClass/InClass.iml" filepath="$PROJECT_DIR$/InClass/InClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Workshop.iml" filepath="$PROJECT_DIR$/.idea/Workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classwork/Classwork.iml" filepath="$PROJECT_DIR$/Classwork/Classwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop.iml" filepath="$PROJECT_DIR$/Workshop.iml" />
     </modules>
   </component>
 </project>
