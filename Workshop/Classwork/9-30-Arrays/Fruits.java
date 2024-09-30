@@ -12,8 +12,19 @@ public class Fruits {
         list.add("Date");
         list.add("Elderberry");
 
+        // Enhanced-for loop
+
         for (String item : list) {
             System.out.println(item);
+        }
+
+        // Print using while loop
+
+        int i = 0;
+
+        while (i < list.size()) {
+            System.out.println(list.get(i));
+            i++;
         }
 
     }
