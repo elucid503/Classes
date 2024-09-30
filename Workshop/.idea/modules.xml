@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InClass/Collections/Collections.iml" filepath="$PROJECT_DIR$/InClass/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" filepath="$PROJECT_DIR$/ExtendedTicketMachine/ExtendedTicketMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks/Homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/InClass/InClass.iml" filepath="$PROJECT_DIR$/InClass/InClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InClass/ObjInteractions/ObjInteractions.iml" filepath="$PROJECT_DIR$/InClass/ObjInteractions/ObjInteractions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Workshop.iml" filepath="$PROJECT_DIR$/.idea/Workshop.iml" />
     </modules>
   </component>

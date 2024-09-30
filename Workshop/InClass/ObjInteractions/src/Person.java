@@ -1,5 +1,3 @@
-package ObjInteractions;
-
 public class Person {
 
     Message receivedMessage;
