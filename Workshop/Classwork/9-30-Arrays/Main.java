@@ -4,12 +4,8 @@ public class Main {
 
     public static void main(String[] argv) {
 
-        ArrayList<String> list = new ArrayList<>();
-
+        ArrayList<String> list = new ArrayList<String>();
         list.add("Hello");
-
-        System.out.println(list.getFirst());
-
     }
 
 }
