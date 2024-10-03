@@ -1,5 +1,6 @@
 package Class10Lists;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 //Part 1
 
@@ -106,6 +107,42 @@ public class Fruit {
 
             i++;
 
+        }
+
+        System.out.println("\nPart 3:");
+
+
+        // Task 14: Search for a specific fruit
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("\nEnter the name of the fruit to search: ");
+        String searchName = scanner.nextLine();
+
+        boolean found = false;
+
+        //Use a for-each loop for the 'market' collection
+
+        for (Fruit fruit : market) {
+
+            if (fruit.getName().equalsIgnoreCase(searchName)) {
+
+                System.out.println("Found fruit: ");
+
+                //Print the fruit details
+
+                fruit.printFruitDetails();
+
+                // Update the state of 'found'
+                found = true;
+
+            }
+        }
+
+        // if not found then.......
+
+        if (!found) {
+            System.out.println("Fruit not available.");
         }
 
     }
