@@ -11,6 +11,7 @@ public class Fruit {
     int quantity;
 
     // Constructor
+
     public Fruit(String name, double price, int quantity) {
 
         this.name = name;
@@ -110,7 +111,6 @@ public class Fruit {
         }
 
         System.out.println("\nPart 3:");
-
 
         // Task 14: Search for a specific fruit
 
