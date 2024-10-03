@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add pkg defs">
-      <change beforePath="$PROJECT_DIR$/../WebDev/Homeworks/Homework2/Ch2Exercise10/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebDev/Homeworks/Homework2/Ch2Exercise8/network.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebDev/Homeworks/Homework2/Ch2WebDesign/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebDev/Homeworks/Homework2/Ch3Exercise8/ex8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebDev/Homeworks/Homework2/Ch3Exercise8/properties.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class10Practice/Warmup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stats/Datasets/Medical.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Stats/Datasets/Medical.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/9-30-Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/9-30-Arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/9-30-Arrays/Fruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class9Arrays/Fruits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/9-30-Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class9Arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/Classwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework3/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework3/Superhero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework4/LetterWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/LetterWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework4/PostOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/PostOffice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +37,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/elucid503/Classes",
+    "url": "https://github.com/elucid503/Classes.git",
     "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
   }
 }]]></component>
@@ -38,38 +45,41 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2mnbXBO0w8AhD65JqlLJ5uqynYd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Fruits.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindow.Build.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Fruits.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindow.Build.ShowToolbar": "false",
+    "ToolWindow.Run.ShowToolbar": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
+      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class9Arrays" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Fruits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fruits" />
-      <module name="Classwork" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -85,11 +95,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Fruits" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -112,6 +117,7 @@
       <workItem from="1727716720414" duration="319000" />
       <workItem from="1727717051385" duration="520000" />
       <workItem from="1727725217215" duration="1180000" />
+      <workItem from="1727973024009" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />

@@ -1,3 +1,5 @@
+package Class9Arrays;
+
 import java.util.ArrayList;
 
 public class Fruits {
