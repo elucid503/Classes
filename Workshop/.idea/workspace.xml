@@ -4,27 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add pkg defs">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class10Practice/Warmup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/Homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stats/Datasets/Medical.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Stats/Datasets/Medical.xlsx" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="More package/module changes (love java!)">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class10Practice/Fruit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/9-30-Arrays/Fruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class9Arrays/Fruits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/9-30-Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class9Arrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/Classwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework3/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework3/Superhero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework4/LetterWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/LetterWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Homework4/PostOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework4/PostOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classwork/Fruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Classwork/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework3/Superhero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework3/TrainFormula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework4/LetterWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework4/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homeworks/Homework4/PostOffice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InClass/ObjInteractions/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InClass/ObjInteractions/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InClass/ObjInteractions/Person.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="PARALLEL_COMPILATION" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -35,12 +45,15 @@
     &quot;assignee&quot;: &quot;elucid503&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/elucid503/Classes.git",
-    "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elucid503/Classes.git&quot;,
+    &quot;accountId&quot;: &quot;55221290-7e27-4448-8b0a-14f13bd14c29&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Classwork/src/Class10Practice/Warmup.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -55,7 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Fruit.executor": "Run",
     "Application.Fruits.executor": "Run",
+    "Application.Warmup.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindow.Build.ShowToolbar": "false",
@@ -69,7 +84,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +98,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Warmup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class10Practice.Warmup" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class10Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -95,6 +126,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Warmup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -117,7 +153,8 @@
       <workItem from="1727716720414" duration="319000" />
       <workItem from="1727717051385" duration="520000" />
       <workItem from="1727725217215" duration="1180000" />
-      <workItem from="1727973024009" duration="929000" />
+      <workItem from="1727973024009" duration="1087000" />
+      <workItem from="1727974135223" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -143,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727716772233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More package/module changes (love java!)">
+      <option name="closed" value="true" />
+      <created>1727974021059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727974021059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +215,7 @@
     <MESSAGE value="Remove files and refactor" />
     <MESSAGE value="Add unversioned files" />
     <MESSAGE value="Add pkg defs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pkg defs" />
+    <MESSAGE value="More package/module changes (love java!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="More package/module changes (love java!)" />
   </component>
 </project>
