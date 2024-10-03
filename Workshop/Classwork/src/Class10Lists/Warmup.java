@@ -1,4 +1,4 @@
-package Class10Practice;
+package Class10Lists;
 
 import java.util.ArrayList;
 
