@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add out to gitignore">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class10Lists/EqualityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class10Lists/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class10Lists/Fruit.java" afterDir="false" />
-    </list>
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,7 @@
       <workItem from="1727725217215" duration="1180000" />
       <workItem from="1727973024009" duration="1087000" />
       <workItem from="1727974135223" duration="1854000" />
-      <workItem from="1727976024224" duration="758000" />
+      <workItem from="1727976024224" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -185,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727975734750</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="More &quot;work&quot; from 10/3 class">
+      <option name="closed" value="true" />
+      <created>1727976884172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727976884172</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix spacing">
+      <option name="closed" value="true" />
+      <created>1727976939137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727976939137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +228,8 @@
     <MESSAGE value="Git Changes" />
     <MESSAGE value="Changes to dirs" />
     <MESSAGE value="Add out to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add out to gitignore" />
+    <MESSAGE value="More &quot;work&quot; from 10/3 class" />
+    <MESSAGE value="Fix spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing" />
   </component>
 </project>
