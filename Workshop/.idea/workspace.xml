@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/Chaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/EqualityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/FruitLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorRm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/RmWithIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +45,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Classwork/src/Class10Practice/Warmup.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -55,7 +63,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.EqualityDemo.executor": "Run",
     "Application.Fruit.executor": "Run",
+    "Application.FruitLoop.executor": "Run",
     "Application.Fruits.executor": "Run",
+    "Application.IteratorLoop.executor": "Run",
+    "Application.IteratorRm.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.RmWithIndex.executor": "Run",
     "Application.Warmup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,6 +94,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class9Arrays" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class11Practice" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,6 +140,7 @@
       <workItem from="1727973024009" duration="1087000" />
       <workItem from="1727974135223" duration="1854000" />
       <workItem from="1727976024224" duration="1531000" />
+      <workItem from="1728319476478" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
