@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/Chaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/EqualityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/FruitLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorRm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/RmWithIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Homework5/FruitBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elucid503/Classes.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/elucid503/Classes&quot;,
     &quot;accountId&quot;: &quot;55221290-7e27-4448-8b0a-14f13bd14c29&quot;
   }
 }</component>
@@ -76,6 +71,7 @@
     "ToolWindow.Run.ShowToolbar": "false",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
     "node.js.detected.package.eslint": "true",
@@ -141,6 +137,8 @@
       <workItem from="1727974135223" duration="1854000" />
       <workItem from="1727976024224" duration="1531000" />
       <workItem from="1728319476478" duration="2051000" />
+      <workItem from="1728355527576" duration="435000" />
+      <workItem from="1728408203911" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
