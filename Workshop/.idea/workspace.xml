@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing">
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework5/FruitBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Workshop HW 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +55,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.EqualityDemo.executor": "Run",
     "Application.Fruit.executor": "Run",
+    "Application.FruitBasket.executor": "Run",
     "Application.FruitLoop.executor": "Run",
     "Application.Fruits.executor": "Run",
     "Application.IteratorLoop.executor": "Run",
@@ -138,7 +136,7 @@
       <workItem from="1727976024224" duration="1531000" />
       <workItem from="1728319476478" duration="2051000" />
       <workItem from="1728355527576" duration="435000" />
-      <workItem from="1728408203911" duration="771000" />
+      <workItem from="1728408203911" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -212,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727976939137</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Workshop HW 5">
+      <option name="closed" value="true" />
+      <created>1728409060029</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728409060029</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +251,7 @@
     <MESSAGE value="Add out to gitignore" />
     <MESSAGE value="More &quot;work&quot; from 10/3 class" />
     <MESSAGE value="Fix spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing" />
+    <MESSAGE value="Workshop HW 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workshop HW 5" />
   </component>
 </project>
