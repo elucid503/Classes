@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Fix spacing">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/Chaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/EqualityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/FruitLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorRm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class11Practice/RmWithIndex.java" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/7 class">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/Chaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/RmWithWhile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +74,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop/Classwork/src/Class12Practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,11 +88,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class9Arrays" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class12Practice" />
       <recent name="Class11Practice" />
     </key>
   </component>
@@ -140,7 +141,9 @@
       <workItem from="1727973024009" duration="1087000" />
       <workItem from="1727974135223" duration="1854000" />
       <workItem from="1727976024224" duration="1531000" />
-      <workItem from="1728319476478" duration="2051000" />
+      <workItem from="1728319476478" duration="3274000" />
+      <workItem from="1728475275255" duration="27000" />
+      <workItem from="1728578134733" duration="3068000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -214,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727976939137</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Files from 10/7 class">
+      <option name="closed" value="true" />
+      <created>1728321776996</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728321776996</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +258,7 @@
     <MESSAGE value="Add out to gitignore" />
     <MESSAGE value="More &quot;work&quot; from 10/3 class" />
     <MESSAGE value="Fix spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing" />
+    <MESSAGE value="Files from 10/7 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/7 class" />
   </component>
 </project>
