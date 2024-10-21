@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/7 class">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/Chaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class12Practice/RmWithWhile.java" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/10 class">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/StreamsEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/Warmup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +62,20 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.EqualityDemo.executor": "Run",
+    "Application.Ex1.executor": "Run",
+    "Application.Ex2.executor": "Run",
+    "Application.Ex3.executor": "Run",
+    "Application.Ex4.executor": "Run",
     "Application.Fruit.executor": "Run",
     "Application.FruitLoop.executor": "Run",
     "Application.Fruits.executor": "Run",
     "Application.IteratorLoop.executor": "Run",
     "Application.IteratorRm.executor": "Run",
+    "Application.LambdaEx3.executor": "Run",
+    "Application.LambdaExercise3.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.RmWithIndex.executor": "Run",
+    "Application.StreamsEx1.executor": "Run",
     "Application.Warmup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,7 +84,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop/Classwork/src/Class12Practice",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +110,72 @@
       <recent name="Class11Practice" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LambdaEx3">
+    <configuration name="LambdaEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx1" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx2" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx3" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx4" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class13Practice.StreamsEx1" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -116,6 +191,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LambdaEx3" />
+        <item itemvalue="Application.StreamsEx1" />
+        <item itemvalue="Application.LambdaEx4" />
+        <item itemvalue="Application.LambdaEx2" />
+        <item itemvalue="Application.LambdaEx1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -143,7 +227,11 @@
       <workItem from="1727976024224" duration="1531000" />
       <workItem from="1728319476478" duration="3274000" />
       <workItem from="1728475275255" duration="27000" />
-      <workItem from="1728578134733" duration="3068000" />
+      <workItem from="1728578134733" duration="3123000" />
+      <workItem from="1728588683281" duration="1000" />
+      <workItem from="1729206674093" duration="3065000" />
+      <workItem from="1729528345969" duration="1028000" />
+      <workItem from="1729529408494" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -225,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728321776996</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Files from 10/10 class">
+      <option name="closed" value="true" />
+      <created>1728582735792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728582735792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +355,7 @@
     <MESSAGE value="More &quot;work&quot; from 10/3 class" />
     <MESSAGE value="Fix spacing" />
     <MESSAGE value="Files from 10/7 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/7 class" />
+    <MESSAGE value="Files from 10/10 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/10 class" />
   </component>
 </project>
