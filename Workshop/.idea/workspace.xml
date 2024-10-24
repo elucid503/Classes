@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/10 class">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/LambdaEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/StreamsEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class13Practice/Warmup.java" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/21 class">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class14Practice/StreamsEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class14Practice/StreamsEx3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class13Practice/StreamsEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class14Practice/StreamsEx1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +73,8 @@
     "Application.Main.executor": "Run",
     "Application.RmWithIndex.executor": "Run",
     "Application.StreamsEx1.executor": "Run",
+    "Application.StreamsEx2.executor": "Run",
+    "Application.StreamsEx3.executor": "Run",
     "Application.Warmup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -110,39 +109,13 @@
       <recent name="Class11Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaEx3">
-    <configuration name="LambdaEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx1" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class13Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx2" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class13Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamsEx2">
     <configuration name="LambdaEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class13Practice.LambdaEx3" />
       <module name="Classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="PATTERN" value="Class14Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,7 +128,7 @@
       <module name="Classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="PATTERN" value="Class14Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +137,37 @@
       </method>
     </configuration>
     <configuration name="StreamsEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class13Practice.StreamsEx1" />
+      <option name="MAIN_CLASS_NAME" value="Class14Practice.StreamsEx1" />
       <module name="Classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class13Practice.*" />
+          <option name="PATTERN" value="Class14Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14Practice.StreamsEx2" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class14Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class14Practice.StreamsEx3" />
+      <module name="Classwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class14Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsEx2" />
+        <item itemvalue="Application.StreamsEx3" />
         <item itemvalue="Application.LambdaEx3" />
         <item itemvalue="Application.StreamsEx1" />
         <item itemvalue="Application.LambdaEx4" />
-        <item itemvalue="Application.LambdaEx2" />
-        <item itemvalue="Application.LambdaEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +230,9 @@
       <workItem from="1728588683281" duration="1000" />
       <workItem from="1729206674093" duration="3065000" />
       <workItem from="1729528345969" duration="1028000" />
-      <workItem from="1729529408494" duration="2433000" />
+      <workItem from="1729529408494" duration="2900000" />
+      <workItem from="1729685158110" duration="14000" />
+      <workItem from="1729787392076" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -321,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728582735792</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Files from 10/21 class">
+      <option name="closed" value="true" />
+      <created>1729531926957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729531926957</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +365,7 @@
     <MESSAGE value="Fix spacing" />
     <MESSAGE value="Files from 10/7 class" />
     <MESSAGE value="Files from 10/10 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/10 class" />
+    <MESSAGE value="Files from 10/21 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/21 class" />
   </component>
 </project>
