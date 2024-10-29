@@ -40,7 +40,7 @@ nav {
 
     width: 150px;
 
-    /* This helps fix an overflow issue on the page...
+    /* This helps fix a small vertical overflow issue on the page...
 
        By subtracting 100% of the entire body/page, which is the first-level parent, by the sum of the padding and dimensions of the header & header img, 
        we can make sure that the nav height does not overflow the body itself. Don't think we covered the calc function, but it is particularly useful here.
