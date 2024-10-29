@@ -4,7 +4,6 @@
 
 }
 
-
 body {
 
     width: 100%;
@@ -19,12 +18,14 @@ body {
 header {
 
     background-color: #c45911;
-
-    text-align: center; /* aligns image, but flexbox would be better */
-
+    
 }
 
 header img {
+
+    display: block; /* allows for margin to center since the element will take up all available space */
+
+    margin: 0 auto; /* centers the image */
 
     padding: 0.5em 0;
 
@@ -69,7 +70,7 @@ main, footer {
 
     margin-left: 150px;
 
-    padding: 0 0.5em;
+    padding: 0 1em;
 
 }
 

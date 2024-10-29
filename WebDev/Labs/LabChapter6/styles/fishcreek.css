@@ -1,0 +1,214 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #5280c5;
+    color: #003366;
+
+    background-image: url("../images/gradientblue.jpg");
+
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+#Wrapper {
+
+    width: 90%;
+    min-width: 700px;
+
+    margin: 0 auto;
+
+    background-color: #f0f0f0;
+
+}
+
+header, dt, .Category {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header {
+
+    text-align: center;
+
+    padding: 1em;
+
+    color: #f0f0f0;
+
+    background-color: #000066;
+    background-image: url("../images/bigfish.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header a {
+
+    text-decoration: none;
+    
+}
+
+header a:link, a:visited {
+
+    color: #f0f0f0;
+
+}
+
+header a:hover {
+
+    color: #AEC3E3;
+
+}
+
+main {
+
+    display: block;
+
+    padding: 0 2em;
+    margin-left: 180px;
+
+    border: 1px solid #AEC3E3;
+
+    background-color: white;
+
+    overflow: auto;
+
+}
+
+h1 {
+
+    font-size: 3em;
+    padding: 0.2em;
+    text-shadow: #CCCCCC;
+
+}
+
+h2 {
+
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 1px #777;
+
+}
+
+
+nav {
+
+    font-weight: bold;
+        
+    padding: 0.5em;
+
+    float: left;
+    width: 180px;
+
+}
+
+nav ul {
+
+    list-style: none;
+
+}
+
+nav ul a {
+
+    text-decoration: none;
+
+}
+
+nav ul a:link {
+
+    color: #000066;
+
+}
+
+nav ul a:visited {
+
+    color: #5280c5;
+
+}
+
+nav ul a:hover {
+
+    color: #3262a3;
+
+}
+
+dt, .Category {
+
+    color: #5280c5;
+    font-weight: bold;
+
+}
+
+dt {
+
+    font-size: 1.1em;
+
+}
+
+footer {
+
+    font-size: 0.70em;
+    font-style: italic;
+
+    text-align: center;
+
+    padding: 1em;
+
+    margin-left: 180px;
+
+    background-color: #AEC3E3;
+
+}
+
+section {
+
+    float: left;
+
+    width: 30%;
+
+    margin: 0 1em 1em 0;
+
+    background-color: #EAEAEA;
+
+    min-height: 200px;
+
+}
+
+section h3 {
+
+    padding: 0.25em;
+
+    margin: 0 auto;
+
+    font-size: 110%;
+
+    background-color: #AEC3E3;
+
+}
+
+section p {
+
+    padding: 0 0.25em 0.25em 0.25em;
+
+}
+
+.Address {
+
+    clear: left;
+
+    padding-bottom: 1em; 
+
+}
+
+.FloatRight {
+
+    float: right;
+    padding: 0 1em;
+
+}
