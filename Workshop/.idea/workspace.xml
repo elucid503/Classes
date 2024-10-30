@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 10/21 class">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/HashSetPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/Interfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/RandomPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/StreamMethodsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/StringMethodsPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="More files from 10/28 class">
+      <change beforePath="$PROJECT_DIR$/../WebDev/Exams/Exam1-InClass.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebDev/Exams/Exam1-InClass/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebDev/Exams/Exam1-InClass/Styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +85,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/PWLProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,33 +112,7 @@
       <recent name="Class11Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomPractice">
-    <configuration name="RandomPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class15Practice.RandomPractice" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class15Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamMethodsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class15Practice.StreamMethodsPractice" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class15Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -158,12 +128,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.RandomPractice" />
-        <item itemvalue="Application.StreamMethodsPractice" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -200,7 +164,8 @@
       <workItem from="1729787392076" duration="382000" />
       <workItem from="1729992994415" duration="1523000" />
       <workItem from="1730133058482" duration="344000" />
-      <workItem from="1730133416462" duration="1730000" />
+      <workItem from="1730133416462" duration="3913000" />
+      <workItem from="1730289887336" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -298,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729531926957</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Files from 10/21 class">
+      <option name="closed" value="true" />
+      <created>1730135360350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730135360350</updated>
+    </task>
+    <task id="LOCAL-00014" summary="More files from 10/28 class">
+      <option name="closed" value="true" />
+      <created>1730135391114</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730135391114</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +315,7 @@
     <MESSAGE value="Files from 10/7 class" />
     <MESSAGE value="Files from 10/10 class" />
     <MESSAGE value="Files from 10/21 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files from 10/21 class" />
+    <MESSAGE value="More files from 10/28 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="More files from 10/28 class" />
   </component>
 </project>
