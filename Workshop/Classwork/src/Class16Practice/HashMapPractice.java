@@ -12,7 +12,7 @@ public class HashMapPractice {
         integerMap.put(102, "Bob");
         integerMap.put(103, "Charlie");
 
-        integerMap.put(101, "Alicia");
+        integerMap.put(101, "Alicia"); // Will overwrite "Alice"
 
         System.out.println(integerMap);
 

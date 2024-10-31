@@ -16,8 +16,6 @@ public class RandomPractice {
 
     }
 
-    // This helps consolidate some code here
-
     public static int getRandomNumberInclusive(int min, int max) {
 
         // To be inclusive, add 1 to the max
