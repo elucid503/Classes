@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="More documentation from methods written in 10/31 class">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 11/4 class">
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class17Practice/Exercise4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +172,7 @@
       <workItem from="1730289887336" duration="75000" />
       <workItem from="1730393259301" duration="3430000" />
       <workItem from="1730741786970" duration="2012000" />
-      <workItem from="1730744464611" duration="893000" />
+      <workItem from="1730744464611" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -314,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730395148220</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Files from 11/4 class">
+      <option name="closed" value="true" />
+      <created>1730745591206</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730745591206</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +358,7 @@
     <MESSAGE value="Files from 10/31 workshop class" />
     <MESSAGE value="Small documentation change" />
     <MESSAGE value="More documentation from methods written in 10/31 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="More documentation from methods written in 10/31 class" />
+    <MESSAGE value="Files from 11/4 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files from 11/4 class" />
   </component>
 </project>

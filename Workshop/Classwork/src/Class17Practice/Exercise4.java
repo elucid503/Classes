@@ -71,10 +71,9 @@ public class Exercise4 {
 
         System.out.println("Area of the circle: " + circle.area(5));
 
+        circle.getDescription();
         circle.draw();
 
     }
 
 }
-
-
