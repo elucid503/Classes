@@ -1,123 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 11/4 class">
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework7/Main.java" afterDir="false" />
+    <list default="true" id="9c8e24e8-c8c4-4e79-95c1-f42d33d6acab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/Classwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class15Practice/StreamMethodsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class15Practice/StreamMethodsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/src/Homework7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
-    <option name="PARALLEL_COMPILATION" value="false" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;elucid503&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "elucid503"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/elucid503/Classes",
     "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
   }
 }]]></component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2mnbXBO0w8AhD65JqlLJ5uqynYd" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2oUoenAQuvjUQA1YZInDSIwwU9C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.EqualityDemo.executor": "Run",
-    "Application.Ex1.executor": "Run",
-    "Application.Ex2.executor": "Run",
-    "Application.Ex3.executor": "Run",
-    "Application.Ex4.executor": "Run",
-    "Application.Exercise4.executor": "Run",
-    "Application.Fruit.executor": "Run",
-    "Application.FruitLoop.executor": "Run",
-    "Application.Fruits.executor": "Run",
-    "Application.HashMapPractice.executor": "Run",
-    "Application.HashSetPractice.executor": "Run",
-    "Application.IteratorLoop.executor": "Run",
-    "Application.IteratorRm.executor": "Run",
-    "Application.LambdaEx3.executor": "Run",
-    "Application.LambdaExercise3.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.RandomPractice.executor": "Debug",
-    "Application.RmWithIndex.executor": "Run",
-    "Application.StreamMethodsPractice.executor": "Run",
-    "Application.StreamsEx1.executor": "Run",
-    "Application.StreamsEx2.executor": "Run",
-    "Application.StreamsEx3.executor": "Run",
-    "Application.StringsPractice.executor": "Run",
-    "Application.Warmup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindow.Build.ShowToolbar": "false",
-    "ToolWindow.Run.ShowToolbar": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Workshop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Elucid\Desktop\Classes\Workshop\Homework\src\Homework6" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class9Arrays" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Class12Practice" />
-      <recent name="Class11Practice" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework7.Main" />
@@ -132,21 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="powershell.exe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -156,230 +73,24 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="" />
-      <created>1727715326941</created>
+      <changelist id="9c8e24e8-c8c4-4e79-95c1-f42d33d6acab" name="Changes" comment="" />
+      <created>1730933614100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727715326941</updated>
-      <workItem from="1727715327604" duration="584000" />
-      <workItem from="1727715929008" duration="738000" />
-      <workItem from="1727716720414" duration="319000" />
-      <workItem from="1727717051385" duration="520000" />
-      <workItem from="1727725217215" duration="1180000" />
-      <workItem from="1727973024009" duration="1087000" />
-      <workItem from="1727974135223" duration="1854000" />
-      <workItem from="1727976024224" duration="1531000" />
-      <workItem from="1728319476478" duration="3274000" />
-      <workItem from="1728475275255" duration="27000" />
-      <workItem from="1728578134733" duration="3123000" />
-      <workItem from="1728588683281" duration="1000" />
-      <workItem from="1729206674093" duration="3065000" />
-      <workItem from="1729528345969" duration="1028000" />
-      <workItem from="1729529408494" duration="2900000" />
-      <workItem from="1729685158110" duration="14000" />
-      <workItem from="1729787392076" duration="382000" />
-      <workItem from="1729992994415" duration="1523000" />
-      <workItem from="1730133058482" duration="344000" />
-      <workItem from="1730133416462" duration="3913000" />
-      <workItem from="1730289887336" duration="75000" />
-      <workItem from="1730393259301" duration="3430000" />
-      <workItem from="1730741786970" duration="2012000" />
-      <workItem from="1730744464611" duration="1188000" />
-      <workItem from="1730837374199" duration="797000" />
+      <updated>1730933614100</updated>
+      <workItem from="1730933615399" duration="40000" />
     </task>
-    <task id="LOCAL-00001" summary="Remove files and refactor">
-      <option name="closed" value="true" />
-      <created>1727715456029</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727715456029</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add unversioned files">
-      <option name="closed" value="true" />
-      <created>1727716750065</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727716750065</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add pkg defs">
-      <option name="closed" value="true" />
-      <created>1727716772233</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727716772233</updated>
-    </task>
-    <task id="LOCAL-00004" summary="More package/module changes (love java!)">
-      <option name="closed" value="true" />
-      <created>1727974021059</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1727974021059</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Git Changes">
-      <option name="closed" value="true" />
-      <created>1727975655890</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727975655890</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Changes to dirs">
-      <option name="closed" value="true" />
-      <created>1727975700982</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1727975700982</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Add out to gitignore">
-      <option name="closed" value="true" />
-      <created>1727975734750</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727975734750</updated>
-    </task>
-    <task id="LOCAL-00008" summary="More &quot;work&quot; from 10/3 class">
-      <option name="closed" value="true" />
-      <created>1727976884172</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1727976884172</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fix spacing">
-      <option name="closed" value="true" />
-      <created>1727976939137</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727976939137</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Files from 10/7 class">
-      <option name="closed" value="true" />
-      <created>1728321776996</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1728321776996</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Files from 10/10 class">
-      <option name="closed" value="true" />
-      <created>1728582735792</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728582735792</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Files from 10/21 class">
-      <option name="closed" value="true" />
-      <created>1729531926957</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1729531926957</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Files from 10/21 class">
-      <option name="closed" value="true" />
-      <created>1730135360350</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1730135360350</updated>
-    </task>
-    <task id="LOCAL-00014" summary="More files from 10/28 class">
-      <option name="closed" value="true" />
-      <created>1730135391114</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1730135391114</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Files from 10/31 workshop class">
-      <option name="closed" value="true" />
-      <created>1730394484295</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1730394484295</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Small documentation change">
-      <option name="closed" value="true" />
-      <created>1730394886125</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1730394886125</updated>
-    </task>
-    <task id="LOCAL-00017" summary="More documentation from methods written in 10/31 class">
-      <option name="closed" value="true" />
-      <created>1730395148220</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1730395148220</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Files from 11/4 class">
-      <option name="closed" value="true" />
-      <created>1730745591206</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1730745591206</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove files and refactor" />
-    <MESSAGE value="Add unversioned files" />
-    <MESSAGE value="Add pkg defs" />
-    <MESSAGE value="More package/module changes (love java!)" />
-    <MESSAGE value="Git Changes" />
-    <MESSAGE value="Changes to dirs" />
-    <MESSAGE value="Add out to gitignore" />
-    <MESSAGE value="More &quot;work&quot; from 10/3 class" />
-    <MESSAGE value="Fix spacing" />
-    <MESSAGE value="Files from 10/7 class" />
-    <MESSAGE value="Files from 10/10 class" />
-    <MESSAGE value="Files from 10/21 class" />
-    <MESSAGE value="More files from 10/28 class" />
-    <MESSAGE value="Files from 10/31 workshop class" />
-    <MESSAGE value="Small documentation change" />
-    <MESSAGE value="More documentation from methods written in 10/31 class" />
-    <MESSAGE value="Files from 11/4 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files from 11/4 class" />
   </component>
 </project>

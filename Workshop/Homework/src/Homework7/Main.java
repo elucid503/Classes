@@ -141,6 +141,8 @@ public class Main {
         dog.move();
         dog.stop(dog.name); // Read above on why the name is passed here
 
+        System.out.println();
+
         bird.makeSound();
         bird.sleep();
         bird.move();
