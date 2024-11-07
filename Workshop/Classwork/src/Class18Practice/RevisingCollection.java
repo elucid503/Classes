@@ -108,7 +108,9 @@ public class RevisingCollection {
 
         // 15. Adding a new entry to mapSet anonymously
 
-        this.mapSet.add(new HashMap<String, Integer>());
+        this.mapSet.add(new HashMap<String, Integer>() {{
+            put("Four", 4);
+        }});
 
         // 16. Changing structure of stringIntMap
 
