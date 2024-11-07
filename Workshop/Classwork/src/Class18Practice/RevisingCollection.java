@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class RevisingCollection {
 
     HashMap<String, Integer> intStringMap;
-    HashSet<String> stringSet;
+    HashSet<String> stringSet; // can be linked to keep the order and if not many insertions
     ArrayList<Integer> intList;
     HashSet<HashMap> mapSet;
     ArrayList<HashMap> mapList;

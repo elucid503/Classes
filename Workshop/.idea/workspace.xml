@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add pretty stupid files from 11/7 workshop class">
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add docs to said stupid files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classwork/src/Class18Practice/RevisingCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class18Practice/RevisingCollection.java" afterDir="false" />
     </list>
@@ -193,7 +193,7 @@
       <workItem from="1730741786970" duration="2012000" />
       <workItem from="1730744464611" duration="1188000" />
       <workItem from="1730837374199" duration="797000" />
-      <workItem from="1731000903060" duration="2006000" />
+      <workItem from="1731000903060" duration="2764000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -347,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731001936396</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add docs to said stupid files">
+      <option name="closed" value="true" />
+      <created>1731003508136</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003508136</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +397,7 @@
     <MESSAGE value="More documentation from methods written in 10/31 class" />
     <MESSAGE value="Files from 11/4 class" />
     <MESSAGE value="Add pretty stupid files from 11/7 workshop class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pretty stupid files from 11/7 workshop class" />
+    <MESSAGE value="Add docs to said stupid files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docs to said stupid files" />
   </component>
 </project>
