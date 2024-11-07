@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Files from 11/4 class">
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class18Practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class18Practice/RevisingCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/elucid503/Classes",
+    "url": "https://github.com/elucid503/Classes.git",
     "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
   }
 }]]></component>
@@ -91,7 +92,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,11 +121,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework7.Main" />
-      <module name="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Class18Practice.Main" />
+      <module name="Classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework7.*" />
+          <option name="PATTERN" value="Class18Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,8 +157,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -194,6 +195,7 @@
       <workItem from="1730741786970" duration="2012000" />
       <workItem from="1730744464611" duration="1188000" />
       <workItem from="1730837374199" duration="797000" />
+      <workItem from="1731000903060" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
