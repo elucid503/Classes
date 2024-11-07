@@ -32,6 +32,10 @@ public class RevisingCollection {
         System.out.println("Printing the complete map (1st version)");
         System.out.println(this.intStringMap);
 
+        // Optional: Using lambda to print
+
+//        this.intStringMap.forEach((k, v) -> System.out.println(k + " : " + v));
+
         // 4. Adding entries to stringSet
 
         this.stringSet.add("Hello");
@@ -60,6 +64,9 @@ public class RevisingCollection {
         System.out.println(this.intList);
 
         // 8. Making the strings from stringSet and integers from intList as keys and values respectively
+
+        // Nice solution because the map does not keep duplicates,
+        // and this simple approach would add dupes otherwise
 
         for (String s : this.stringSet) {
             for (Integer i : this.intList) {
@@ -108,7 +115,5 @@ public class RevisingCollection {
         // (done within editor)
 
     }
-
-
 
 }
