@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax">
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework8/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework8/Playground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework8/Responder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework8/SupportSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class21Practice/FibGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +36,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elucid503/Classes&quot;,
+    &quot;url&quot;: &quot;https://github.com/elucid503/Classes.git&quot;,
     &quot;accountId&quot;: &quot;55221290-7e27-4448-8b0a-14f13bd14c29&quot;
   }
 }</component>
@@ -70,6 +67,7 @@
     "Application.Ex3.executor": "Run",
     "Application.Ex4.executor": "Run",
     "Application.Exercise4.executor": "Run",
+    "Application.FibGenerator.executor": "Run",
     "Application.Fruit.executor": "Run",
     "Application.FruitLoop.executor": "Run",
     "Application.Fruits.executor": "Run",
@@ -96,7 +94,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/General/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/Repos/General/Workshop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,12 +129,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework8.Playground" />
-      <module name="Homework" />
+    <configuration name="FibGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class21Practice.FibGenerator" />
+      <module name="Classwork" />
+      <option name="PROGRAM_PARAMETERS" value="500" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework8.*" />
+          <option name="PATTERN" value="Class21Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,7 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Playground" />
+        <item itemvalue="Application.FibGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +210,10 @@
       <workItem from="1731440026878" duration="24000" />
       <workItem from="1731445111687" duration="76000" />
       <workItem from="1731445197176" duration="1398000" />
+      <workItem from="1731605940755" duration="763000" />
+      <workItem from="1731606730934" duration="792000" />
+      <workItem from="1731952077078" duration="1763000" />
+      <workItem from="1731954444096" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
