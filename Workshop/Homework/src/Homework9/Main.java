@@ -61,7 +61,9 @@ class Staff {
         staff.staffList[0].addHours(35.0);
         staff.staffList[1].addHours(40.0);
 
-        // Must assert the Commission type because the methods below are not in the Hourly class. This is important to note because in the assignment, a type of "Employee"
+        // Must assert the Commission type here because some of the methods below are not in the Hourly class. We know index 2 and 3 are Commission, otherwise this is dangerous to do.
+        // This is important to note because in the assignment, a type of "Employee" was used to type the staffList array instead of either just the parent-most class (Hourly) or a specific
+        // class (either Hourly or Commission). Employee is not a class/interface in the scope of this assignment, and could cause others confusion.
 
         Commission employee3 = (Commission)staff.staffList[2];
 
