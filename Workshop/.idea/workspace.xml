@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class21Practice/FibGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Commission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Hourly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +36,12 @@
     &quot;assignee&quot;: &quot;elucid503&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/elucid503/Classes.git&quot;,
-    &quot;accountId&quot;: &quot;55221290-7e27-4448-8b0a-14f13bd14c29&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/elucid503/Classes",
+    "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,6 +83,7 @@
     "Application.Playground.executor": "Run",
     "Application.RandomPractice.executor": "Debug",
     "Application.RmWithIndex.executor": "Run",
+    "Application.Staff.executor": "Run",
     "Application.StreamMethodsPractice.executor": "Run",
     "Application.StreamsEx1.executor": "Run",
     "Application.StreamsEx2.executor": "Run",
@@ -129,20 +132,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FibGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class21Practice.FibGenerator" />
-      <module name="Classwork" />
-      <option name="PROGRAM_PARAMETERS" value="500" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class21Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -158,11 +147,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.FibGenerator" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -214,6 +198,7 @@
       <workItem from="1731606730934" duration="792000" />
       <workItem from="1731952077078" duration="1763000" />
       <workItem from="1731954444096" duration="1181000" />
+      <workItem from="1732076118993" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
