@@ -63,7 +63,7 @@ public class Commission extends Hourly {
     @Override
     public String toString() {
 
-        return String.format("%s%nTotal Sales: $%.1f", super.toString(), totalSales);
+        return String.format("%s%nTotal Sales: $%.1f", super.toString(), totalSales); // This is a nice way to not write more code than needed; concats the output of the existing .toString() method
 
     }
 
