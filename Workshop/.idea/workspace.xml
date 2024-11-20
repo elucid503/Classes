@@ -1,14 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax">
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Commission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Hourly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Homework9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class10Lists/EqualityDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class10Lists/EqualityDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class10Lists/Fruit.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class10Lists/Fruit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class10Lists/Warmup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class10Lists/Warmup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class10Lists/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class10Lists/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class10Lists/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class10Lists/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/Book.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/Book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/EqualityDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/EqualityDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/FruitLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/FruitLoop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/IteratorLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/IteratorLoop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/IteratorRm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/IteratorRm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/Library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/RmWithIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/RmWithIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class11Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class11Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/Book.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/Book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/Car.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/Car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/Library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/RmWithWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/RmWithWhile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class12Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class12Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/LambdaEx4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/Warmup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/Warmup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class13Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class13Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class14Practice/StreamsEx3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class14Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class14Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class14Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class14Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/A.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/B.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/B.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/HashSetPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/HashSetPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/Interfaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/Interfaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/RandomPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/RandomPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/StreamMethodsPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/StreamMethodsPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/StringMethodsPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/StringMethodsPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class15Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class15Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/HashMapPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/HashMapPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/HashSetPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/HashSetPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/RandomPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/RandomPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/StringsPractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/StringsPractice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class16Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class16Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Animal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Animal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Circle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Displayable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Displayable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Drawable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Drawable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Duck.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Duck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Exercise1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Exercise1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Exercise2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Exercise3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Exercise3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Exercise4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Exercise4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Flyable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Flyable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Media.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Movable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Movable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Shape.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Shape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Swimmable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Swimmable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/Video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/Video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class17Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class17Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class18Practice/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class18Practice/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class18Practice/RevisingCollection.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class18Practice/RevisingCollection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class18Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class18Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class18Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class18Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/InputReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/InputReader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/Responder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/Responder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/SupportSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/SupportSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class19Practice/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class19Practice/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class9Arrays/Fruits.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class9Arrays/Fruits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class9Arrays/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class9Arrays/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class9Arrays/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class9Arrays/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Class9Arrays/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Class9Arrays/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework3/Superhero.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework3/Superhero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework3/TrainFormula.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework3/TrainFormula.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework3/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework3/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework3/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework3/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/LetterWriter.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/LetterWriter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/Person.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/Person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/PostOffice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/PostOffice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework4/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework4/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework5/FruitBasket.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework5/FruitBasket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework5/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework5/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework5/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework5/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework6/AnimalMonitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework6/AnimalMonitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework6/Sighting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework6/Sighting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework6/SightingReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework6/SightingReader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework6/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework6/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework6/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework6/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Animal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Animal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Bird.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Bird.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Location.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/Moveable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/Moveable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Homework7/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Homework7/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/legal/ASSEMBLY_EXCEPTION" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/legal/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/legal/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/legal/jquery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/legal/jqueryUI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/resource-files/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/resource-files/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/resource-files/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/resource-files/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/resource-files/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/resource-files/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/resource-files/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/resource-files/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/script-files/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/script-files/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/script-files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/script-files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/script-files/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/script-files/search-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/script-files/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/script-files/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/type-search-index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +354,7 @@
       <workItem from="1731606730934" duration="792000" />
       <workItem from="1731952077078" duration="1763000" />
       <workItem from="1731954444096" duration="1181000" />
-      <workItem from="1732076118993" duration="1300000" />
+      <workItem from="1732076118993" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
