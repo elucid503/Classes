@@ -7,12 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/src/Homework9/Docs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework9/Docs/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/src/Homework9/Docs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework9/Docs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/src/Homework9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework9/Docs.html" afterDir="false" />
-    </list>
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +196,7 @@
       <workItem from="1731606730934" duration="792000" />
       <workItem from="1731952077078" duration="1763000" />
       <workItem from="1731954444096" duration="1181000" />
-      <workItem from="1732076118993" duration="2860000" />
+      <workItem from="1732076118993" duration="3049000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />

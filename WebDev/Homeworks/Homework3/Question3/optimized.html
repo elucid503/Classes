@@ -1,202 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
+    <!-- About 12k lines of CSS i took directly from the site files -->
 
-        /* Similar styles */
-
-        table {
-
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.61;
-            box-sizing: inherit;
-            empty-cells: show;
-            border-collapse: collapse;
-            border: 0;
-            padding: 0;
-            margin: 0;
-            color: #000;
-            overflow: auto;
-
-       }
-
-       thead {
-
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.61;
-            empty-cells: show;
-            border-collapse: collapse;
-            color: #000;
-            box-sizing: inherit;
-            text-align: left;
-            border-top: none;
-
-       }
-
-       tbody {
-
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.61;
-            empty-cells: show;
-            border-collapse: collapse;
-            color: #000;
-            box-sizing: inherit;
-            background-color: #fff;
-            border-top: none;
-
-       }
-
-       tr {
-
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.61;
-            empty-cells: show;
-            border-collapse: collapse;
-            text-align: left;
-            box-sizing: inherit;
-            color: #000;
-
-       }
-
-       td {
-
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.61;
-            empty-cells: show;
-            border-collapse: collapse;
-            color: #000;
-            box-sizing: inherit;
-            position: relative;
-            padding: .9375rem 1.25rem .75rem;
-            max-width: 90vw;
-            min-width: 18.125rem;
-            vertical-align: top;
-            text-align: left;
-            border-bottom: .125rem solid #f5f6f6;
-            background-color: #f1f1f1;
-
-       }
-
-       th {
-
-            -webkit-text-size-adjust: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-            empty-cells: show;
-            border-collapse: collapse;
-            color: #000;
-            box-sizing: inherit;
-            position: relative;
-            padding: 1.8125rem 1.3125rem 1.25rem;
-            font-size: 1.125rem;
-            line-height: 1.56;
-            font-weight: 700;
-            vertical-align: top;
-            border-bottom: .125rem solid #bcbec0;
-            text-align: left;
-            background-color: #f1f1f1;
-
-       }
-
-    </style>
+    <link rel="stylesheet" href="./ripped.css"> 
 
 </head>
 
 <body>
 
-    <!-- Labels and scope attrs -->
+    <div aria-labelledby="caption1" class="table__inner" role="region">
 
-    <table aria-label="Important dates and information">
+        <table tabindex="0">
 
-        <caption>Important Dates and Information</caption>
-
-        <thead>
-
-            <tr>
-                <td id="date" scope="col">Date</td>
-                <th id="info" scope="col">Information</th>
-            </tr>
-
-        </thead>
-
-        <tbody>
-
-            <tr>
-
-                <td id="july1" scope="row">July 1</td>
-                <td headers="date july1">Fall semester billing statements generated during the first week of the month</td>
-
-            </tr>
-
-            <tr>
-
-                <td id="aug1-1" scope="row">August 1</td>
-                <td headers="date aug1-1">Payment for Fall semester due</td>
-
-            </tr>
-
-            <tr>
-
-                <td id="aug1-2" scope="row">August 1</td>
-                <td headers="date aug1-2">Last day for receipt of enrollment in the Fall semester monthly payment plan</td>
-
-            </tr>
-
-            <tr>
-
-                <td id="sep30" scope="row">September 30</td>
-                <td headers="date sep30">Final date of Fall semester extension for receipt of Federal and alternative loan proceeds. Late fees assessed after this date</td>
+            <caption id="caption1">Table of Important Academic and Billing Dates for Fall and Spring Semesters</caption>
             
-            </tr>
+            <thead>
 
-            <tr>
-                <td id="nov-dec" scope="row">Late November/ Early December</td>
-                <td headers="date nov-dec">Spring semester billing statements are generated</td>
-           
-            </tr>
+                <tr>
 
-            <tr>
-                <td id="dec24-jan1" scope="row">December 24 - January 1</td>
-                <td headers="date dec24-jan1">University offices closed</td>
-            
-            </tr>
-            
-            <tr>
-                <td id="dec31" scope="row">December 31</td>
-                <td headers="date dec31">Payment for Spring semester due</td>
-            </tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Information</th>
 
-            
-            <tr>
+                </tr>
 
-                <td id="jan1" scope="row">January 1</td>
-                <td headers="date jan1">Last day for receipt of enrollment in the Spring semester monthly payment plan</td>
-            
-            </tr>
+            </thead>
 
-            <tr>
+            <tbody>
 
-                <td id="feb28" scope="row">February 28</td>
-                <td headers="date feb28">Final date of Spring semester extension for receipt of Federal and alternative loan proceeds. Late fees assessed after this date</td>
-            
-            </tr>
+                <tr>
 
-        </tbody>
+                    <td>July 1</td>
+                    <td>Fall semester billing statements generated during the first week of the month.</td>
 
-    </table>
+                </tr>
+
+                <tr>
+
+                    <td>August 1</td>
+
+                    <td>
+
+                        <ul>
+
+                            <li>Payment for Fall semester due.</li>
+                            <li>Last day for receipt of enrollment in the Fall semester monthly payment plan.</li>
+                        
+                        </ul>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>September 30</td>
+                    <td>Final date of Fall semester extension for receipt of Federal and alternative loan proceeds. Late fees assessed after this date.</td>
+                
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <time datetime="2024-11-25" aria-label="Late November to Early December">Late November/Early December</time>
+                    
+                    </td>
+                    
+                    <td>Spring semester billing statements are generated.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <abbr title="December 24 to January 1">Dec 24 - Jan 1</abbr>
+
+                    </td>
+
+                    <td>University offices closed.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>December 31</td>
+                    <td>Payment for Spring semester due.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>January 1</td>
+                    <td>Last day for receipt of enrollment in the Spring semester monthly payment plan.</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>February 28</td>
+                    <td>Final date of Spring semester extension for receipt of Federal and alternative loan proceeds. Late fees assessed after this date.</td>
+                
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
 
 </body>
 
