@@ -7,30 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add &quot;seat&quot; project thing from riv class">
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Actually add files">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/CommandWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/CommandWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/CommandWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/CommandWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/CommandWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/CommandWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-better/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/CommandWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,13 +121,14 @@
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBetter" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBad" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Homework\src\Homework8" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class19Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Workshop\Homework\src\Homework6" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class23Practice.ZullBetter" />
       <recent name="Class12Practice" />
       <recent name="Class11Practice" />
     </key>
@@ -154,19 +139,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class22Practice.Main" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class22Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -182,11 +154,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -241,7 +208,7 @@
       <workItem from="1732076118993" duration="3049000" />
       <workItem from="1732210400802" duration="4124000" />
       <workItem from="1732546971764" duration="42000" />
-      <workItem from="1733161228340" duration="331000" />
+      <workItem from="1733161228340" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -427,7 +394,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732212706295</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add project files in new dir">
+      <option name="closed" value="true" />
+      <created>1733161580506</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733161580506</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Actually add files">
+      <option name="closed" value="true" />
+      <created>1733161606852</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733161606852</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +456,8 @@
     <MESSAGE value="More docs..." />
     <MESSAGE value="Add anonymous call with hashmap with weird java syntax" />
     <MESSAGE value="Add &quot;seat&quot; project thing from riv class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;seat&quot; project thing from riv class" />
+    <MESSAGE value="Add project files in new dir" />
+    <MESSAGE value="Actually add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actually add files" />
   </component>
 </project>

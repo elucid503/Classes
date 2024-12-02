@@ -1,3 +1,5 @@
+package Class23Practice.ZullBetter;
+
 import java.util.Scanner;
 
 /**
