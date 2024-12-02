@@ -1,0 +1,422 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: hsl(216, 50%, 55%);
+    color: #003366;
+
+    margin: 0;
+    
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+#Wrapper {
+
+    background-color: #f0f0f0;
+
+}
+
+header, dt, .Category {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header {
+
+    text-align: center;
+
+    padding: 1em;
+
+    color: #f0f0f0;
+
+    background-color: #000066;
+    background-image: url("../images/lilfish.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header a {
+
+    text-decoration: none;
+    
+}
+
+header a:link, a:visited {
+
+    color: #f0f0f0;
+
+}
+
+header a:hover {
+
+    color: #AEC3E3;
+
+}
+
+main {
+
+    display: block;
+
+    padding: 0 2em;
+
+    border: 1px solid #AEC3E3;
+
+    background-color: white;
+
+    overflow: auto;
+
+}
+
+h1 {
+
+    font-size: 2em;
+    padding: 0.2em;
+    text-shadow: #e0dddd;
+
+    animation: fadeIn 2s;
+
+}
+
+h2 {
+
+    font-size: 1.2em;
+
+    text-shadow: 1px 1px 1px #777;
+
+}
+
+
+nav {
+        
+    text-align: center;
+
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 1.5em;
+
+    list-style: none;
+
+}
+
+nav li {
+
+    padding: 0.5em 0;
+
+    width: 100%;
+
+    border-bottom: 1px solid black;;
+
+}
+
+nav ul a {
+
+    text-decoration: none;
+
+}
+
+nav ul a:link {
+
+    color: #000066;
+
+}
+
+nav ul a:visited {
+
+    color: #5280c5;
+
+}
+
+nav ul a:hover {
+
+    color: #3262a3;
+
+}
+
+dt, .Category {
+
+    color: #5280c5;
+    font-weight: bold;
+
+}
+
+dt {
+
+    font-size: 1.1em;
+
+}
+
+footer {
+
+    font-size: 0.70em;
+    font-style: italic;
+
+    text-align: center;
+
+    padding: 1em;
+
+    background-color: #AEC3E3;
+
+}
+
+section {
+
+    margin: 0 1em 1em 0;
+
+    background-color: #EAEAEA;
+
+}
+
+section h3 {
+
+    padding: 0.25em;
+
+    margin: 0 auto;
+
+    font-size: 110%;
+
+    background-color: #AEC3E3;
+
+}
+
+section p {
+
+    padding: 0 0.25em 0.25em 0.25em;
+
+}
+
+.Address {
+
+    clear: left;
+
+    padding-bottom: 1em; 
+
+}
+
+#Mobile {
+
+    display: inline;
+
+}
+
+#Desktop {
+
+    display: none;
+
+}
+
+table {
+
+    margin: 1em;
+
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+
+}
+
+td, th {
+
+    padding: 0.5em;
+    border: 1px solid darkblue;
+
+}
+
+form { 
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 80%; 
+
+    padding-left: 1em;
+
+}
+    
+input, textarea { 
+    
+    margin-bottom: .5em;
+    
+}
+
+@keyframes fadeIn {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    article {
+
+        flex: 2;
+
+    }
+
+    header {
+
+        background-image: url("../images/bigfish.gif");
+
+    }
+
+    h1 {
+
+        font-size: 3em;
+
+    }
+
+    nav ul {
+
+        flex-direction: row;
+        justify-content: space-around;
+
+        flex-wrap: nowrap;
+
+    }
+
+    nav li {
+
+        border-bottom: none;
+
+    }
+
+    #flow {
+
+        display: flex;
+        flex-direction: row; /* not really needed, row is default */
+
+        flex-wrap: wrap;
+
+    }
+
+    section {
+        
+        min-width: 30%;
+        flex: 1;
+
+    }
+
+    dl {
+
+        flex: 2;
+
+    }
+
+    img {
+
+        flex: 1;
+
+    }
+
+    #Mobile {
+
+        display: none;
+
+    }
+
+    #Desktop {
+
+        display: inline;
+
+    }
+    
+    form {
+
+        display: grid;
+        grid-template-columns: 6em 1fr;
+        
+        gap: 1em;
+
+        width: 40%;
+
+        margin-bottom: 0.5em; /* looks better */
+
+    }
+
+    input[type="submit"] {
+
+        grid-column: 2;
+        
+        width: 9em;
+
+    }
+
+    form label {
+
+        text-align: right;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    @supports (display: grid) {
+
+        header {
+
+            grid-area: header;
+
+        }
+
+        nav {
+
+            grid-area: nav;
+
+        }
+
+        main {
+
+            grid-area: main;
+
+        }
+
+        footer {
+
+            grid-area: footer;
+
+        }
+
+        #Wrapper {
+
+            display: grid;
+
+            grid-template: 
+
+                "header header"
+
+                "nav main"
+
+                "nav footer"
+
+            / 180px;
+
+        }
+
+        nav ul {
+
+            flex-direction: column;
+
+            font-weight: bold;
+            font-size: 1.25em;
+
+        }
+
+    }
+
+}
