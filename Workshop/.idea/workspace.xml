@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add anonymous call with hashmap with weird java syntax">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class22Practice/CinemaHall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class22Practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class22Practice/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class22Practice/Ticket.java" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add &quot;seat&quot; project thing from riv class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +36,12 @@
     &quot;assignee&quot;: &quot;elucid503&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/elucid503/Classes.git",
-    "accountId": "55221290-7e27-4448-8b0a-14f13bd14c29"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elucid503/Classes.git&quot;,
+    &quot;accountId&quot;: &quot;55221290-7e27-4448-8b0a-14f13bd14c29&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Classwork/src/Class11Practice/IteratorLoop.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -101,7 +97,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/General/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/PWLProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -221,7 +217,8 @@
       <workItem from="1731952077078" duration="1763000" />
       <workItem from="1731954444096" duration="1181000" />
       <workItem from="1732076118993" duration="3049000" />
-      <workItem from="1732210400802" duration="2207000" />
+      <workItem from="1732210400802" duration="4124000" />
+      <workItem from="1732546971764" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -399,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731004746314</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add &quot;seat&quot; project thing from riv class">
+      <option name="closed" value="true" />
+      <created>1732212706295</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732212706295</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,6 +449,7 @@
     <MESSAGE value="Add docs to said stupid files" />
     <MESSAGE value="More docs..." />
     <MESSAGE value="Add anonymous call with hashmap with weird java syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add anonymous call with hashmap with weird java syntax" />
+    <MESSAGE value="Add &quot;seat&quot; project thing from riv class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;seat&quot; project thing from riv class" />
   </component>
 </project>
