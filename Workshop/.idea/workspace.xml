@@ -9,6 +9,28 @@
   <component name="ChangeListManager">
     <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add &quot;seat&quot; project thing from riv class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/CommandWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-bad/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/CommandWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-better/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/CommandWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/CommandWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v1/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/CommandWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/CommandWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/zuul-with-enums-v2/Room.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +119,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/PWLProject",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/General/Workshop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,11 +137,11 @@
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBad" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Homework\src\Homework8" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class19Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Workshop\Homework\src\Homework6" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class10Practice" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class9Arrays" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Class12Practice" />
@@ -219,6 +241,7 @@
       <workItem from="1732076118993" duration="3049000" />
       <workItem from="1732210400802" duration="4124000" />
       <workItem from="1732546971764" duration="42000" />
+      <workItem from="1733161228340" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
