@@ -7,25 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Refactor game files into packages">
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Move all &quot;project&quot; files">
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/SalesItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/SalesItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/libs/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork/src/libs/junit-4.13.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/src/Homework9/Docs/Homework9/Staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework9/Docs/Homework9/Staff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/CommandWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/CommandWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/CommandWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/CommandWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/CommandWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/CommandWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/Classwork.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,29 +103,30 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/General/Workshop",
+    "last_opened_file_path": "C:/Users/Elucid/Desktop/Classes/General/Workshop/Classwork/src/libs/junit-4.13.2.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\libs" />
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\Sales" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullEnumsV2" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBetter" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBad" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Homework\src\Homework8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Class23Practice.ZullBetter" />
@@ -219,7 +209,7 @@
       <workItem from="1732076118993" duration="3049000" />
       <workItem from="1732210400802" duration="4124000" />
       <workItem from="1732546971764" duration="42000" />
-      <workItem from="1733161228340" duration="1017000" />
+      <workItem from="1733161228340" duration="3445000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -429,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733162090161</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Move all &quot;project&quot; files">
+      <option name="closed" value="true" />
+      <created>1733162296950</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733162296950</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove files and refactor" />
     <MESSAGE value="Add unversioned files" />
     <MESSAGE value="Add pkg defs" />
     <MESSAGE value="More package/module changes (love java!)" />
@@ -478,6 +475,7 @@
     <MESSAGE value="Add project files in new dir" />
     <MESSAGE value="Actually add files" />
     <MESSAGE value="Refactor game files into packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor game files into packages" />
+    <MESSAGE value="Move all &quot;project&quot; files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move all &quot;project&quot; files" />
   </component>
 </project>
