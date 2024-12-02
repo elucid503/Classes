@@ -1,0 +1,64 @@
+/* General Styling */
+
+body {
+
+    font-family: Arial, sans-serif;
+    
+    line-height: 1.6; /* Make things a bit more spaced out */
+
+    background-color: #f9f9f9;
+    
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+form {
+
+    max-width: 600px;
+
+    background: #fff;
+
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* For when the screen is too small */
+
+    border: 1px solid #ccc;
+
+}
+
+.InitialFields {
+
+    display: flex;
+    flex-direction: column;
+
+    width: fit-content;
+
+    margin-bottom: 1rem;
+
+}
+
+.Footer {
+
+    margin-top: 2rem;
+
+    text-align: center;
+
+    color: #666;
+
+}
+
+a {
+
+    color: #666;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
