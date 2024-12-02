@@ -7,14 +7,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Actually add files">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Game.java" afterDir="false" />
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Refactor game files into packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-better/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/CommandWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/zuul-better/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBad/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullBetter/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/src/Homework9/Docs/Homework9/Staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Homework9/Docs/Homework9/Staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/CommandWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/CommandWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/CommandWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v1/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV1/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/CommandWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/CommandWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/CommandWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/CommandWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/zuul-with-enums-v2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/ZullEnumsV2/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +132,11 @@
       <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class12Practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullEnumsV2" />
+      <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBetter" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Classwork\src\Class23Practice\ZullBad" />
       <recent name="C:\Users\Elucid\Desktop\Classes\General\Workshop\Homework\src\Homework8" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Repos\General\Workshop\Classwork\src\Class19Practice" />
-      <recent name="C:\Users\Elucid\Desktop\Classes\Workshop\Homework\src\Homework6" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Class23Practice.ZullBetter" />
@@ -208,7 +219,7 @@
       <workItem from="1732076118993" duration="3049000" />
       <workItem from="1732210400802" duration="4124000" />
       <workItem from="1732546971764" duration="42000" />
-      <workItem from="1733161228340" duration="828000" />
+      <workItem from="1733161228340" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -410,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733161606852</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Refactor game files into packages">
+      <option name="closed" value="true" />
+      <created>1733162090161</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733162090161</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +477,7 @@
     <MESSAGE value="Add &quot;seat&quot; project thing from riv class" />
     <MESSAGE value="Add project files in new dir" />
     <MESSAGE value="Actually add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actually add files" />
+    <MESSAGE value="Refactor game files into packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor game files into packages" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package Class23Practice.ZullEnumsV1;
+
 /**
  *  This class is the main class of the "World of Zuul" application. 
  *  "World of Zuul" is a very simple, text based adventure game.  Users 
@@ -142,7 +144,7 @@ public class Game
      * Try to go in one direction. If there is an exit, enter the new
      * room, otherwise print an error message.
      */
-    private void goRoom(Command command) 
+    private void goRoom(Command command)
     {
         if(!command.hasSecondWord()) {
             // if there is no second word, we don't know where to go...
