@@ -1,4 +1,4 @@
-package Class23Practice.Sales;
+package Sales;
 
 import java.util.ArrayList;
 import java.util.Iterator;

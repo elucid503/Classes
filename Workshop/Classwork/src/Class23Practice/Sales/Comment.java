@@ -1,4 +1,4 @@
-package Class23Practice.Sales;
+package Sales;
 
 /**
  * This class represents a comment left for a sales item on an online sales site.

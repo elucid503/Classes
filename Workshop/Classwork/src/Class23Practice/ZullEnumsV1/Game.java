@@ -1,4 +1,4 @@
-package Class23Practice.ZullEnumsV1;
+package ZullEnumsV1;
 
 /**
  *  This class is the main class of the "World of Zuul" application. 

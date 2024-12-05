@@ -1,4 +1,4 @@
-package Class23Practice.ZullBetter;
+package ZullBetter;
 
 /**
  * This class is part of the "World of Zuul" application. 

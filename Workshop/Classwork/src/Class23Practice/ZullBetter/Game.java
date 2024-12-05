@@ -1,8 +1,4 @@
-package Class23Practice.ZullBetter;
-
-import Class23Practice.ZullBetter.Command;
-import Class23Practice.ZullBetter.Parser;
-import Class23Practice.ZullBetter.Room;
+package ZullBetter;
 
 /**
  *  This class is the main class of the "World of Zuul" application. 
@@ -23,8 +19,8 @@ import Class23Practice.ZullBetter.Room;
 
 public class Game 
 {
-    private Class23Practice.ZullBetter.Parser parser;
-    private Class23Practice.ZullBetter.Room currentRoom;
+    private ZullBetter.Parser parser;
+    private ZullBetter.Room currentRoom;
         
     /**
      * Create the game and initialise its internal map.
@@ -40,14 +36,14 @@ public class Game
      */
     private void createRooms()
     {
-        Class23Practice.ZullBetter.Room outside, theater, pub, lab, office;
+        ZullBetter.Room outside, theater, pub, lab, office;
       
         // create the rooms
-        outside = new Class23Practice.ZullBetter.Room("outside the main entrance of the university");
-        theater = new Class23Practice.ZullBetter.Room("in a lecture theater");
-        pub = new Class23Practice.ZullBetter.Room("in the campus pub");
-        lab = new Class23Practice.ZullBetter.Room("in a computing lab");
-        office = new Class23Practice.ZullBetter.Room("in the computing admin office");
+        outside = new ZullBetter.Room("outside the main entrance of the university");
+        theater = new ZullBetter.Room("in a lecture theater");
+        pub = new ZullBetter.Room("in the campus pub");
+        lab = new ZullBetter.Room("in a computing lab");
+        office = new ZullBetter.Room("in the computing admin office");
         
         // initialise room exits
 
@@ -71,7 +67,7 @@ public class Game
                 
         boolean finished = false;
         while (! finished) {
-            Class23Practice.ZullBetter.Command command = parser.getCommand();
+            ZullBetter.Command command = parser.getCommand();
             finished = processCommand(command);
         }
         System.out.println("Thank you for playing.  Good bye.");
@@ -109,7 +105,7 @@ public class Game
      * @param command The command to be processed.
      * @return true If the command ends the game, false otherwise.
      */
-    private boolean processCommand(Class23Practice.ZullBetter.Command command)
+    public boolean processCommand(ZullBetter.Command command)
     {
         boolean wantToQuit = false;
 
@@ -152,7 +148,7 @@ public class Game
      * Try to go in one direction. If there is an exit, enter
      * the new room, otherwise print an error message.
      */
-    private void goRoom(Class23Practice.ZullBetter.Command command)
+    private void goRoom(ZullBetter.Command command)
     {
         if(!command.hasSecondWord()) {
             // if there is no second word, we don't know where to go...

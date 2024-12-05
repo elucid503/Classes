@@ -1,4 +1,4 @@
-package Class23Practice.ZullEnumsV2;
+package ZullEnumsV2;
 
 /**
  * This class is part of the "World of Zuul" application. 

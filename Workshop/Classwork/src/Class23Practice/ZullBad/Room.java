@@ -1,12 +1,12 @@
-package Class23Practice.ZullBad;
+package ZullBad;
 
 /**
- * Class Class23Practice.ZullEnumsV1.Room - a room in an adventure game.
+ * Class ZullEnumsV1.Room - a room in an adventure game.
  *
  * This class is part of the "World of Zuul" application. 
  * "World of Zuul" is a very simple, text based adventure game.  
  *
- * A "Class23Practice.ZullEnumsV1.Room" represents one location in the scenery of the game.  It is
+ * A "ZullEnumsV1.Room" represents one location in the scenery of the game.  It is
  * connected to other rooms via exits.  The exits are labelled north, 
  * east, south, west.  For each direction, the room stores a reference
  * to the neighboring room, or null if there is no exit in that direction.

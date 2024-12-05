@@ -1,4 +1,4 @@
-package Class23Practice.ZullEnumsV1;
+package ZullEnumsV1;
 
 import java.util.HashMap;
 
@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 public class CommandWords
 {
-    // A mapping between a command word and the Class23Practice.ZullEnumsV1.CommandWord
+    // A mapping between a command word and the ZullEnumsV1.CommandWord
     // associated with it.
     private HashMap<String, CommandWord> validCommands;
 
@@ -31,9 +31,9 @@ public class CommandWords
     }
 
     /**
-     * Find the Class23Practice.ZullEnumsV1.CommandWord associated with a command word.
+     * Find the ZullEnumsV1.CommandWord associated with a command word.
      * @param commandWord The word to look up (as a string).
-     * @return The Class23Practice.ZullEnumsV1.CommandWord correspondng to commandWord, or UNKNOWN
+     * @return The ZullEnumsV1.CommandWord correspondng to commandWord, or UNKNOWN
      *         if it is not a valid command word.
      */
     public CommandWord getCommandWord(String commandWord)

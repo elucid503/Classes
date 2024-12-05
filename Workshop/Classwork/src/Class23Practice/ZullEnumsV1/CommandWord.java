@@ -1,4 +1,4 @@
-package Class23Practice.ZullEnumsV1;
+package ZullEnumsV1;
 
 /**
  * Representations for all the valid command words for the game.
