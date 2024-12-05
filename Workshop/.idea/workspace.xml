@@ -7,15 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Move all &quot;project&quot; files">
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/SalesItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/Class23Practice/Sales/SalesItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/libs/hamcrest-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classwork/src/libs/junit-4.13.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classwork/Classwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classwork/Classwork.iml" afterDir="false" />
-    </list>
+    <list default="true" id="2502fb3a-45f1-40a9-929f-b72ca51ca40c" name="Changes" comment="Add stupid &quot;sales&quot; thing with modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +201,7 @@
       <workItem from="1732076118993" duration="3049000" />
       <workItem from="1732210400802" duration="4124000" />
       <workItem from="1732546971764" duration="42000" />
-      <workItem from="1733161228340" duration="3445000" />
+      <workItem from="1733161228340" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="Remove files and refactor">
       <option name="closed" value="true" />
@@ -427,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733162296950</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add stupid &quot;sales&quot; thing with modules">
+      <option name="closed" value="true" />
+      <created>1733164910039</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733164910039</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add unversioned files" />
     <MESSAGE value="Add pkg defs" />
     <MESSAGE value="More package/module changes (love java!)" />
     <MESSAGE value="Git Changes" />
@@ -476,6 +475,7 @@
     <MESSAGE value="Actually add files" />
     <MESSAGE value="Refactor game files into packages" />
     <MESSAGE value="Move all &quot;project&quot; files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move all &quot;project&quot; files" />
+    <MESSAGE value="Add stupid &quot;sales&quot; thing with modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add stupid &quot;sales&quot; thing with modules" />
   </component>
 </project>

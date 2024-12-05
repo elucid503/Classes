@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "Classwork\\src\\libs"
+    ],
+    "java.project.referencedLibraries": [
+        "Classwork\\src\\libs\\hamcrest-2.2.jar",
+        "Classwork\\src\\libs\\junit-4.13.2.jar"
+    ]
+}
