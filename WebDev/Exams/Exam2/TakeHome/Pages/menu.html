@@ -11,6 +11,69 @@
 
         <link rel="stylesheet" href="../Styles/layout.css">
 
+        <style>
+
+            h2 {
+
+                margin-top: 1.75rem; /* fix spacing, a bit */
+
+                text-align: center;
+
+            }
+
+            .Menu {
+
+                width: calc(100% - 4rem); /* Factor in the padding */
+
+                margin: 2rem;
+
+                border: none;
+                border-collapse: separate; /* dont mind the extra spacing */
+
+            }
+
+            /* Manual border and cell configuration (for a border radius) */
+            
+            .Menu th, .Menu td {
+
+                padding: 1rem;
+
+                text-align: center;
+
+            }
+
+            .ItemTitle {
+
+                font-weight: bold;
+                font-size: 1.25rem;
+
+            }
+
+            .ItemDescription, .ItemDescriptionTitle {
+
+                text-align: left!important; /* override center */
+
+            }
+
+            .Menu tr img {
+
+                /* Some amount of responsiveness on the size by using vw with limited height (scales to width too b/c of aspect-ratio) */
+
+                max-height: 150px;
+                min-height: 100px;
+
+                height: 10vw;
+
+                width: auto;
+                
+                aspect-ratio: 1/1; /* maintain square */
+
+                border-radius: 6px;
+
+            }
+
+        </style>
+
     </head>
 
     <body>
@@ -19,7 +82,11 @@
 
             <header class="Horizontal Banner CenteredFlex ContainerWithBorder">
 
-                <img class="Logo" alt="Coffee Shop Image">
+                <img class="Logo" src="../Images/Banner/Logo.png" draggable="false" alt="Coffee Shop Image">
+
+                <!-- I am not using background-image in CSS as to style the image with filter prop -->
+                 
+                <img class="Background" src="../Images/Banner/BG.png" draggable="false"> 
 
             </header>
 
@@ -31,7 +98,7 @@
 
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="./menu.html">Menu</a></li>
-                        <li><a href="./questionnaire.html">Questionnaire</a></li>
+                        <li><a href="./questionnaire.html">Survey</a></li>
 
                     </ul>
 
@@ -39,8 +106,77 @@
 
                 <main class="Content ContainerLightWithBorder">
 
-                    
+                    <h2>Our Menu</h2>
 
+                    <table class="Menu">
+
+                        <thead>
+
+                            <tr>
+                                <th>Product</th>
+                                <th class="ItemDescriptionTitle">Description</th>
+                                <th>Rating</th>
+                                <th>Price</th>
+                                <th>Image</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td class="ItemTitle">Cappuccino</td>
+                                <td class="ItemDescription">A classic Italian coffee with steamed milk and a thick layer of foam. This delightful beverage is perfect for those who enjoy a rich and creamy texture with a strong coffee flavor. It's a popular choice for morning coffee lovers.</td>
+                                <td>★★★★★</td>
+                                <td>$4.50</td>
+                                <td><img draggable="false" src="../Images/Menu/Cappuccino.png" alt="Cappuccino" width="50"></td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="ItemTitle">Espresso</td>
+                                <td class="ItemDescription">A rich and intense coffee shot, perfect for a quick caffeine boost. This concentrated coffee is known for its bold flavor and is often enjoyed on its own or used as a base for other coffee drinks. Ideal for those who need a strong pick-me-up.</td>
+                                <td>★★★★★</td>
+                                <td>$3.50</td>
+                                <td><img draggable="false" src="../Images/Menu/Espresso.png" alt="Espresso" width="50"></td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="ItemTitle">Latte</td>
+                                <td class="ItemDescription">A smooth and creamy coffee made with steamed milk. This popular drink is known for its mild coffee flavor and velvety texture, making it a favorite for those who prefer a less intense coffee experience. Perfect for a relaxing afternoon.</td>
+                                <td>★★★★★</td>
+                                <td>$5.50</td>
+                                <td><img draggable="false" src="../Images/Menu/Latte.png" alt="Latte" width="50"></td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td class="ItemTitle">Iced Latte</td>
+                                <td class="ItemDescription">A chilled and refreshing version of our classic latte. This cool beverage is perfect for hot days, offering the same smooth and creamy taste as a traditional latte but with an icy twist. Great for a refreshing coffee break.</td>
+                                <td>★★★★</td>
+                                <td>$5.75</td>
+                                <td><img draggable="false" src="../Images/Menu/IcedLatte.png" alt="Iced Latte" width="50"></td>
+                            
+                            </tr>
+                                
+                            <tr>
+
+                                <td class="ItemTitle">Macchiato</td>
+                                <td class="ItemDescription">An espresso with a small amount of steamed milk, topped with foam. This drink offers a perfect balance of strong coffee flavor and creamy texture, making it a great choice for those who enjoy a touch of milk in their espresso. Ideal for a mid-morning treat.</td>
+                                <td>★★★★</td>
+                                <td>$4.75</td>
+                                <td><img draggable="false" src="../Images/Menu/Macchiato.png" alt="Macchiato" width="50"></td>
+
+                            </tr>
+                           
+                        </tbody>
+                        
+                    </table>
 
                 </main>
 

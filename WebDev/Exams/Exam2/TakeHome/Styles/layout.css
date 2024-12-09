@@ -1,9 +1,10 @@
 /* Page-level layout */
-
 body {
 
     font-family: Arial, sans-serif;
-    margin: auto;
+    margin: 0;
+
+    height: calc(100vh - 5px); /* Subtracting margin */
 
 }
 
@@ -15,7 +16,7 @@ body {
     gap: 5px;
 
     width: calc(100% - 10px); /* Subtracting margin */
-    height: calc(100vh - 10px); /* Subtracting margin */
+    height: calc(100% - 5px); /* Subtracting margin */
 
     margin: 5px auto;
 
@@ -69,15 +70,20 @@ a {
 
 .Horizontal.Banner {
 
+    position: relative;
+
     /* Centered flex-container */
 
-    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+
+    overflow: hidden; /* Important for background image */
 
 }
 
 .Horizontal.MainContent {
 
-    height: 100%;
+    flex: 1; /* Grow to fill remaining space */
 
 }
 
@@ -86,7 +92,6 @@ a {
 .Nav {
 
     width: 120px;
-    height: 100%;
 
 }
 
@@ -112,5 +117,36 @@ ul {
     margin: auto;
 
     list-style-type: none;
+
+}
+
+ul li {
+
+    padding: 0.25rem 0;
+    
+}
+
+.Horizontal.Banner .Logo {
+
+    height: 150px;
+
+    z-index: 2;
+
+}
+
+.Horizontal.Banner .Background {
+
+    /* By positioning it absolutely to the relative Banner element, we can acheive a similar effect to css background-image while being able to 
+    seperately modify the opacity and blur of the image. This creates for a nice effect */
+
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+
+    width: 100%;
+
+    z-index: 1;
+
+    opacity: 0.5;
+    filter: blur(1.5px);
 
 }
