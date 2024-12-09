@@ -1,0 +1,116 @@
+/* Page-level layout */
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: auto;
+
+}
+
+.Wrapper {
+    
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+    width: calc(100% - 10px); /* Subtracting margin */
+    height: calc(100vh - 10px); /* Subtracting margin */
+
+    margin: 5px auto;
+
+}
+
+.Horizontal {
+
+    display: flex;
+    gap: 5px;
+    
+}
+
+/* Utility classes */
+
+*.CenteredFlex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+*.AlignedHorizontalFlex {
+
+    display: flex;
+    align-items: center;
+
+}
+
+*.ContainerWithBorder {
+
+    background-color: rgb(255, 216, 144);
+    border-radius: 6px;
+
+}
+
+*.ContainerLightWithBorder {
+
+    background-color: rgb(255, 231, 186);
+    border-radius: 6px;
+
+}
+
+a {
+
+    color: black;
+
+}
+
+/* For main vertical layout */
+
+.Horizontal.Banner {
+
+    /* Centered flex-container */
+
+    height: 120px;
+
+}
+
+.Horizontal.MainContent {
+
+    height: 100%;
+
+}
+
+/* For main horizontal layout */
+
+.Nav {
+
+    width: 120px;
+    height: 100%;
+
+}
+
+.Content {
+
+    flex: 1; /* Grow to fill remaining space */
+
+}
+
+.Sidebar {
+
+    width: 150px;
+    
+}
+
+/* More specific things */
+
+ul {
+
+    text-align: center;
+    
+    padding: 10px;
+    margin: auto;
+
+    list-style-type: none;
+
+}

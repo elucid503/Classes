@@ -42,17 +42,16 @@ form {
 
 .Footer {
 
-    margin-top: 2rem;
-
     text-align: center;
 
-    color: #666;
+    margin-top: 2rem;
+    font-size: 0.9em;
 
 }
 
 a {
 
-    color: #666;
+    color: #555;
     text-decoration: none;
 
 }

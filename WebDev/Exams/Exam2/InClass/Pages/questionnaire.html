@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Coffee Shop - Questionnaire</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../Styles/layout.css">
+
+        <style>
+
+            .Form {
+
+                display: flex;
+                flex-direction: column;
+
+                gap: 1rem;
+
+                width: 90%;
+                margin: 0 auto;
+
+            }
+
+            form {
+
+                display: flex;
+                flex-direction: column;
+
+                gap: 1rem;
+
+            }
+
+            input.FullWidth {
+
+                width: 90%;
+
+            }
+
+            .FormControlRow {
+
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+            .FormControlRow.FitContentWidth {
+
+                width: fit-content;
+                gap: 0.5rem;
+
+            }
+
+            .FormControlChoices {
+
+                display: flex;
+                flex-wrap: wrap;
+
+                margin-left: 2rem;
+
+            }
+
+            /* Specific styles */
+
+            select, textarea {
+
+                width: fit-content;
+                margin-left: 2rem;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- The form on this page still needs some styling, but works for now. -->
+
+        <div class="Wrapper">
+
+            <header class="Horizontal Banner CenteredFlex ContainerWithBorder">
+
+                <img class="Logo" alt="Coffee Shop Image">
+
+            </header>
+
+            <div class="Horizontal MainContent">
+                
+                <nav class="Nav ContainerWithBorder">
+
+                    <ul>
+
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./questionnaire.html">Questionnaire</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <main class="Content ContainerLightWithBorder">
+
+                    <div class="Form">
+
+                        <h2>Visitor Questionnaire</h2>
+
+                        <caption>I'm gathering information about visitors on my site ... rest of text</caption>
+
+                        <!-- TODO: Check method here, might be post (idk) -->
+
+                        <form action="https://webdevbasics.net/scripts/demo.php">
+
+                            <!-- Contols for Name, Location, etc... -->
+
+                            <div class="FormControlGroup">
+
+                                <div class="FormControlRow">
+
+
+
+                                    <label for="FirstName">First Name:<input type="text" id="FirstName" name="FirstName" required></label>
+
+                                    <label for="LastName">Last Name:<input type="text" id="LastName" name="LastName" required></label>
+
+                                </div>
+
+                                <div class="FormControlRow">
+
+                                    <label for="City">City:<input type="text" id="City" name="City" required></label>
+
+                                    <label for="State">State:<input type="text" id="State" name="State" required></label>
+
+                                </div>
+
+                                <div class="FormControlRow">
+
+                                    <label for="ZipCode">Zip Code:<input type="text" id="ZipCode" name="ZipCode" required></label>
+
+                                    <label for="Country">Country:<input type="text" id="Country" name="Country" required></label>
+
+                                </div>
+                                
+                                <!-- URL Input Type -->
+
+                                <label for="URL">URL:<input class="FullWidth" type="url" id="URL" name="URL"></label>
+
+                            </div>
+
+                            <!-- Single radio-choice -->
+
+                            <div class="FormControlGroup">
+
+                                <label for="AgeGroup">What is your age group?</label>
+                                
+                                <div class="FormControlChoices">
+
+                                    <input type="radio" id="Under13" name="AgeGroup" value="Under 13">Under 13
+                                    <input type="radio" id="13To19" name="AgeGroup" value="13 to 19">13 to 19
+                                    <input type="radio" id="20To34" name="AgeGroup" value="20 to 34">20 to 34
+                                    <input type="radio" id="35To49" name="AgeGroup" value="35 to 49">35 to 49
+                                    <input type="radio" id="50To64" name="AgeGroup" value="50 to 64">50 to 64
+                                    <input type="radio" id="Over65" name="AgeGroup" value="Over 65">Over 65
+
+                                </div>
+
+                            </div>
+
+                            <!-- Multi-Option -->
+
+                            <div class="FormControlGroup">
+
+                                <label for="Field">What is your field? <i>(Multiple items may be selected.)</i></label>
+                              
+                                <div class="FormControlChoices">
+
+                                    <input type="checkbox" id="Finance" name="Field" value="Finance">Finance
+                                    <input type="checkbox" id="Manufacturing" name="Field" value="Manufacturing">Manufacturing
+                                    <input type="checkbox" id="Agriculture" name="Field" value="Agriculture">Agriculture
+                                    <input type="checkbox" id="Government" name="Field" value="Government">Government
+                                    <input type="checkbox" id="Sales" name="Field" value="Sales">Sales
+                                    <input type="checkbox" id="HealthCare" name="Field" value="Health Care">Health Care
+                                    <input type="checkbox" id="Retail" name="Field" value="Retail">Retail
+                                    <input type="checkbox" id="Construction" name="Field" value="Construction">Construction
+                                    <input type="checkbox" id="Techology" name="Field" value="Technology">Technology
+                                    <input type="checkbox" id="RealEstate" name="Field" value="Real Estate">Real Estate
+                                    <input type="checkbox" id="Entertainment" name="Field" value="Entertainment">Entertainment
+                                    <input type="checkbox" id="Education" name="Field" value="Education">Education
+                                    <input type="checkbox" id="Other" name="Field" value="Other">Other
+
+                                </div>
+
+                            </div>
+
+                            <!-- Select Menu -->
+
+                            <label for="Discovery">How did you find out about us? <i>(Hold Ctrl or Shift key to make multiple selections.)</i></label>
+                            
+                            <select id="Discovery" name="Discovery" multiple>
+                                <option value="Google">Google</option>
+                                <option value="Yahoo">Yahoo</option>
+                                <option value="Bing">Bing</option>
+                                <option value="AllaVista">AllaVista</option>
+                                <option value="Excite">Excite</option>
+                                <option value="DuckDuckGo">DuckDuckGo</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            
+                            <!-- Text Box -->
+
+                                <label for="Comments">Comments</label>
+                                <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
+                              
+                            <!-- Buttons -->
+
+                            <div class="FormControlRow FitContentWidth">
+
+                                <button type="submit">Submit</button>
+                                <button type="reset">Reset</button>
+                            
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </main>
+
+                <div class="Sidebar ContainerWithBorder">
+
+                    <ul>
+
+                        <li><a href="">Coffee Link 1</a></li>
+                        <li><a href="">Coffee Link 2</a></li>
+                        <li><a href="">Coffee Link 3</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div> 
+            
+    </body>
+
+</html>
