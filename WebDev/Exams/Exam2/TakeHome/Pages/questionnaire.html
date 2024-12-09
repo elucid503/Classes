@@ -13,75 +13,58 @@
 
         <style>
 
-            /* Main Form */
-
             .Form {
 
                 display: flex;
                 flex-direction: column;
+
                 gap: 1rem;
 
-                padding: 1rem 2rem;
+                width: 90%;
+                margin: 0 auto;
 
             }
 
             form {
 
+                display: flex;
+                flex-direction: column;
+
                 gap: 1rem;
 
             }
 
-            /* Top Inputs */
+            input.FullWidth {
 
-            .TwoColFormInputs {
+                width: 90%;
+
+            }
+
+            .FormControlRow {
 
                 display: flex;
-                gap: 2rem;
-
-                padding: 0.5rem 0;
+                justify-content: space-between;
                 
             }
 
-            .FormControlGroup {
-
-                display: flex;
-                flex-direction: column;
-
-                padding: 0.5rem 0;
+            .FormControlRow.FitContentWidth {
 
                 width: fit-content;
+                gap: 0.5rem;
 
             }
-
-            /* Choices for Select/Radio/etc... */
 
             .FormControlChoices {
 
                 display: flex;
                 flex-wrap: wrap;
 
-                width: 50%;
-
                 margin-left: 2rem;
-                
-            }
-
-            /* Misc/Other Styles */
-
-            label.Large {
-
-                font-size: 1.2rem;
-                padding: 0.5rem 0;
 
             }
 
-            label span {
+            /* Specific styles */
 
-                font-size: 0.8rem;
-                font-style: italic;
-
-            }
-            
             select, textarea {
 
                 width: fit-content;
@@ -133,63 +116,45 @@
 
                             <!-- Contols for Name, Location, etc... -->
 
-                            <div class="TwoColFormInputs">
+                            <div class="FormControlGroup">
 
-                                <div class="FormControlGroup">
+                                <div class="FormControlRow">
 
-                                    <label for="FirstName">First Name:
 
-                                        <input type="text" id="FirstName" name="FirstName" required>
-                                    
-                                    </label>
 
-                                    <label for="City">City:
+                                    <label for="FirstName">First Name:<input type="text" id="FirstName" name="FirstName" required></label>
 
-                                        <input type="text" id="City" name="City" required>
-                                    
-                                    </label>
-
-                                    <label for="ZipCode">Zip Code:
-
-                                        <input type="text" id="ZipCode" name="ZipCode" required>
-                                    
-                                    </label>
+                                    <label for="LastName">Last Name:<input type="text" id="LastName" name="LastName" required></label>
 
                                 </div>
 
-                                <div class="FormControlGroup">
+                                <div class="FormControlRow">
 
-                                    <label for="LastName">Last Name:
+                                    <label for="City">City:<input type="text" id="City" name="City" required></label>
 
-                                        <input type="text" id="LastName" name="LastName" required>
-                                    
-                                    </label>    
-
-                                    <label for="State">State:
-
-                                        <input type="text" id="State" name="State" required>
-                                    
-                                    </label>
-
-                                    <label for="Country">Country:
-
-                                        <input type="text" id="Country" name="Country" required>
-                                    
-                                    </label>
+                                    <label for="State">State:<input type="text" id="State" name="State" required></label>
 
                                 </div>
+
+                                <div class="FormControlRow">
+
+                                    <label for="ZipCode">Zip Code:<input type="text" id="ZipCode" name="ZipCode" required></label>
+
+                                    <label for="Country">Country:<input type="text" id="Country" name="Country" required></label>
+
+                                </div>
+                                
+                                <!-- URL Input Type -->
+
+                                <label for="URL">URL:<input class="FullWidth" type="url" id="URL" name="URL"></label>
 
                             </div>
-
-                            <!-- URL Input Type -->
-
-                            <label for="URL">URL:<input class="FullWidth" type="url" id="URL" name="URL"></label>
 
                             <!-- Single radio-choice -->
 
                             <div class="FormControlGroup">
 
-                                <label class="Large" for="AgeGroup">What is your age group?</label>
+                                <label for="AgeGroup">What is your age group?</label>
                                 
                                 <div class="FormControlChoices">
 
@@ -208,7 +173,7 @@
 
                             <div class="FormControlGroup">
 
-                                <label class="Large" for="Field">What is your field? <span>(Multiple items may be selected.)</span></label>
+                                <label for="Field">What is your field? <i>(Multiple items may be selected.)</i></label>
                               
                                 <div class="FormControlChoices">
 
@@ -232,42 +197,30 @@
 
                             <!-- Select Menu -->
 
-                            <div class="FormControlGroup">
-
-                                <label class="Large" for="Discovery">How did you find out about us? <span>(Hold Ctrl or Shift key to make multiple selections.)</span></label>
-                                
-                                <select id="Discovery" name="Discovery" multiple>
-                                    <option value="Google">Google</option>
-                                    <option value="Yahoo">Yahoo</option>
-                                    <option value="Bing">Bing</option>
-                                    <option value="AllaVista">AllaVista</option>
-                                    <option value="Excite">Excite</option>
-                                    <option value="DuckDuckGo">DuckDuckGo</option>
-                                    <option value="Other">Other</option>
-                                </select>
-
-                            </div>
+                            <label for="Discovery">How did you find out about us? <i>(Hold Ctrl or Shift key to make multiple selections.)</i></label>
+                            
+                            <select id="Discovery" name="Discovery" multiple>
+                                <option value="Google">Google</option>
+                                <option value="Yahoo">Yahoo</option>
+                                <option value="Bing">Bing</option>
+                                <option value="AllaVista">AllaVista</option>
+                                <option value="Excite">Excite</option>
+                                <option value="DuckDuckGo">DuckDuckGo</option>
+                                <option value="Other">Other</option>
+                            </select>
                             
                             <!-- Text Box -->
 
-                            <div class="FormControlGroup">
-
-                                <label class="Large" for="Comments">Comments</label>
+                                <label for="Comments">Comments</label>
                                 <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
-
-                            </div>
                               
                             <!-- Buttons -->
 
-                            <div class="FormControlGroup">
+                            <div class="FormControlRow FitContentWidth">
 
-                                <div class="FormControlRow FitContentWidth">
-
-                                    <button type="submit">Submit</button>
-                                    <button type="reset">Reset</button>
-
-                                </div>
-
+                                <button type="submit">Submit</button>
+                                <button type="reset">Reset</button>
+                            
                             </div>
 
                         </form>

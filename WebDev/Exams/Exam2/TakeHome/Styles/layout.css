@@ -5,8 +5,6 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
 
-    overflow: scroll;
-
 }
 
 .Wrapper {
@@ -16,10 +14,8 @@ body {
 
     gap: 5px;
 
-    min-height: calc(100vh - 10px); /* Subtracting margin */
-    width: calc(100vw - 10px); /* Subtracting margin */
-
-    height: calc(100vh - 10px);
+    width: calc(100% - 10px); /* Subtracting margin */
+    height: calc(100vh - 10px); /* Subtracting margin */
 
     margin: 5px auto;
 
@@ -75,7 +71,7 @@ a {
 
     /* Centered flex-container */
 
-    min-height: 120px;
+    height: 120px;
 
 }
 
