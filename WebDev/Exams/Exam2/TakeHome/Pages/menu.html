@@ -15,9 +15,19 @@
 
             h2 {
 
-                margin-top: 1.75rem; /* fix spacing, a bit */
-
                 text-align: center;
+
+            }
+
+            h2.HeadingTop {
+
+                margin-top: 2rem;
+
+            }
+
+            h2.HeadingBottom {
+
+                margin-bottom: 2rem;
 
             }
 
@@ -72,6 +82,23 @@
 
             }
 
+            .Video {
+
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .Video video {
+
+                max-width: 50%;
+
+                border-radius: 6px;
+
+                margin-bottom: 4rem; /* extra space for UX, needed for how the scrolling system works */
+
+            }
+
         </style>
 
     </head>
@@ -86,11 +113,11 @@
 
             <header class="Horizontal Banner CenteredFlex ContainerWithBorder">
 
-                <img class="Logo" src="../Images/Banner/Logo.png" draggable="false" alt="Coffee Shop Image">
+                <img class="Logo" src="../Media/Images/Banner/Logo.png" draggable="false" alt="Coffee Shop Image">
 
                 <!-- I am not using background-image in CSS as to style the image with filter prop -->
                  
-                <img class="Background" src="../Images/Banner/BG.png" draggable="false"> 
+                <img class="Background" src="../Media/Images/Banner/BG.png" draggable="false"> 
 
             </header>
 
@@ -110,7 +137,7 @@
 
                 <main class="Content ContainerLightWithBorder">
 
-                    <h2>Our Menu</h2>
+                    <h2 class="HeadingTop">Our Menu</h2>
 
                     <table class="Menu">
 
@@ -134,7 +161,7 @@
                                 <td class="ItemDescription">A classic Italian coffee with steamed milk and a thick layer of foam. This delightful beverage is perfect for those who enjoy a rich and creamy texture with a strong coffee flavor. It's a popular choice for morning coffee lovers.</td>
                                 <td>★★★★★</td>
                                 <td>$4.50</td>
-                                <td><img draggable="false" src="../Images/Menu/Cappuccino.png" alt="Cappuccino" width="50"></td>
+                                <td><img draggable="false" src="../Media/Images/Menu/Cappuccino.png" alt="Cappuccino" width="50"></td>
 
                             </tr>
 
@@ -144,7 +171,7 @@
                                 <td class="ItemDescription">A rich and intense coffee shot, perfect for a quick caffeine boost. This concentrated coffee is known for its bold flavor and is often enjoyed on its own or used as a base for other coffee drinks. Ideal for those who need a strong pick-me-up.</td>
                                 <td>★★★★★</td>
                                 <td>$3.50</td>
-                                <td><img draggable="false" src="../Images/Menu/Espresso.png" alt="Espresso" width="50"></td>
+                                <td><img draggable="false" src="../Media/Images/Menu/Espresso.png" alt="Espresso" width="50"></td>
 
                             </tr>
 
@@ -154,7 +181,7 @@
                                 <td class="ItemDescription">A smooth and creamy coffee made with steamed milk. This popular drink is known for its mild coffee flavor and velvety texture, making it a favorite for those who prefer a less intense coffee experience. Perfect for a relaxing afternoon.</td>
                                 <td>★★★★★</td>
                                 <td>$5.50</td>
-                                <td><img draggable="false" src="../Images/Menu/Latte.png" alt="Latte" width="50"></td>
+                                <td><img draggable="false" src="../Media/Images/Menu/Latte.png" alt="Latte" width="50"></td>
 
                             </tr>
 
@@ -164,7 +191,7 @@
                                 <td class="ItemDescription">A chilled and refreshing version of our classic latte. This cool beverage is perfect for hot days, offering the same smooth and creamy taste as a traditional latte but with an icy twist. Great for a refreshing coffee break.</td>
                                 <td>★★★★</td>
                                 <td>$5.75</td>
-                                <td><img draggable="false" src="../Images/Menu/IcedLatte.png" alt="Iced Latte" width="50"></td>
+                                <td><img draggable="false" src="../Media/Images/Menu/IcedLatte.png" alt="Iced Latte" width="50"></td>
                             
                             </tr>
                                 
@@ -174,7 +201,7 @@
                                 <td class="ItemDescription">An espresso with a small amount of steamed milk, topped with foam. This drink offers a perfect balance of strong coffee flavor and creamy texture, making it a great choice for those who enjoy a touch of milk in their espresso. Ideal for a mid-morning treat.</td>
                                 <td>★★★★</td>
                                 <td>$4.75</td>
-                                <td><img draggable="false" src="../Images/Menu/Macchiato.png" alt="Macchiato" width="50"></td>
+                                <td><img draggable="false" src="../Media/Images/Menu/Macchiato.png" alt="Macchiato" width="50"></td>
 
                             </tr>
                            
@@ -182,15 +209,28 @@
                         
                     </table>
 
+                    <h2 class="HeadingBottom">Featured Video</h2>
+
+                    <div class="Video">
+
+                        <video controls>
+
+                            <source src="../Media/Videos/MinimalistCoffee.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+
+                        </video>
+
+                    </div>
+
                 </main>
 
                 <div class="Sidebar ContainerWithBorder">
 
                     <ul>
 
-                        <li><a href="">Coffee Link 1</a></li>
-                        <li><a href="">Coffee Link 2</a></li>
-                        <li><a href="">Coffee Link 3</a></li>
+                        <li><a href="https://marthascountrybakery.com/">Martha's Cafe</a></li>
+                        <li><a href="https://uprightcoffee.com/">Upright Coffee</a></li>
+                        <li><a href="https://www.breville.com/us/en/coffee-journey/tutorials.html">Coffee Tutorials</a></li>
 
                     </ul>
 
