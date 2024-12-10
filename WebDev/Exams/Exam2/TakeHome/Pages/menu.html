@@ -15,7 +15,7 @@
 
             h2 {
 
-                text-align: center;
+                margin-left: calc(2rem + 2px); /* The 2px is for better UX. it looks more centered due to the padding of the video container below it. subverting margins like this is a common trick i've seen done in industry */
 
             }
 
@@ -37,6 +37,9 @@
 
                 margin: 2rem;
 
+                background-color: rgb(255, 240, 212);
+                border-radius: 6px;
+
                 border: none;
                 border-collapse: separate; /* dont mind the extra spacing */
 
@@ -49,7 +52,7 @@
                 padding: 1rem;
 
                 text-align: center;
-
+    
             }
 
             .ItemTitle {
@@ -82,20 +85,17 @@
 
             }
 
-            .Video {
+            video {
 
-                display: flex;
-                justify-content: center;
+                margin-left: 2rem;
+                margin-bottom: 2rem; /* extra space for UX, needed for how the scrolling system works */
 
-            }
+                width: 50%;
 
-            .Video video {
+                padding: 2rem;
 
-                max-width: 50%;
-
+                background-color: rgb(255, 240, 212);
                 border-radius: 6px;
-
-                margin-bottom: 4rem; /* extra space for UX, needed for how the scrolling system works */
 
             }
 
@@ -127,9 +127,9 @@
 
                     <ul>
 
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./menu.html">Menu</a></li>
-                        <li><a href="./questionnaire.html">Survey</a></li>
+                        <a href="../index.html"><li>Home</li></a>
+                        <a href="./menu.html"><li>Menu</li></a>
+                        <a href="./questionnaire.html"><li>Survey</li></a>
 
                     </ul>
 
@@ -137,18 +137,20 @@
 
                 <main class="Content ContainerLightWithBorder">
 
-                    <h2 class="HeadingTop">Our Menu</h2>
+                    <caption><h2 class="HeadingTop">Our Menu</h2></caption>
 
                     <table class="Menu">
 
                         <thead>
 
                             <tr>
+                                
                                 <th>Product</th>
                                 <th class="ItemDescriptionTitle">Description</th>
                                 <th>Rating</th>
                                 <th>Price</th>
                                 <th>Image</th>
+
                             </tr>
 
                         </thead>
@@ -211,7 +213,7 @@
 
                     <h2 class="HeadingBottom">Featured Video</h2>
 
-                    <div class="Video">
+                    <div class="VideoContainer">
 
                         <video controls>
 
@@ -228,9 +230,9 @@
 
                     <ul>
 
-                        <li><a href="https://marthascountrybakery.com/">Martha's Cafe</a></li>
-                        <li><a href="https://uprightcoffee.com/">Upright Coffee</a></li>
-                        <li><a href="https://www.breville.com/us/en/coffee-journey/tutorials.html">Coffee Tutorials</a></li>
+                        <a target="_blank" href="https://marthascountrybakery.com/"><li>Martha's Cafe</li></a>
+                        <a target="_blank" href="https://uprightcoffee.com/"><li>Upright Coffee</li></a>
+                        <a target="_blank" href="https://www.terminal.shop/"><li>Terminal Coffee</li></a>
 
                     </ul>
 
@@ -238,12 +240,10 @@
 
             </div>
 
+            <a id="bottom"></a>
+
         </div> 
 
-        <!-- Fragment identifier at bottom, same access as top !-->
-
-        <a id="bottom"></a>
-            
     </body>
 
 </html>

@@ -1,0 +1,100 @@
+.About {
+
+    padding: 0.5rem 2rem;
+
+}
+
+.AboutItemContainer {
+
+    padding: 1rem;
+
+    background-color: rgb(255, 240, 212);
+    border-radius: 6px;
+
+}
+
+.AboutItemContainer.Small {
+
+    padding: 0.5rem;
+
+}
+
+.AboutItemContainer.FitContent {
+
+    width: fit-content;
+
+}
+
+.Hours thead tr {
+
+    text-align: left;
+
+}
+
+.Hours td {
+
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+
+}
+
+.StaffMembers {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+}
+
+.StaffCard {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+}
+
+.StaffTitle {
+
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.Features {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.Features li {
+    
+    width: fit-content;
+
+    margin: 0.5rem 0;
+
+}
+
+.Contact {
+
+    display: flex;
+    gap: 1rem;
+
+    width: fit-content;
+
+}
+
+.ContactItem {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+
+    margin-bottom: 2rem; /* This is due to our scrolling system. As mentioned elseware, it is not ideal and could be better. */
+
+}
