@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-Docs.html"},{"l":"Homework9"}];updateSearchResults();
