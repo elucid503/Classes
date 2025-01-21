@@ -9,11 +9,19 @@ public class Main {
 
     public static void main(String[] argv) {
 
-        String input = read();
+        try {
 
-        String output = process(input);
+            String input = read();
 
-        System.out.println(output);
+            String output = process(input);
+
+            System.out.println(output);
+
+        } catch (Exception e) {
+
+            System.out.println("uh oh: " + e.getMessage());
+
+        }
 
     }
 
@@ -36,7 +44,7 @@ public class Main {
 
                 return first + middle + last; // concat them all
 
-            } else if (input.length() % 2 == 0 && input.length() >= 6) { // even and >= 6
+            } else if (input.length() % 2 == 0 && input.length() >= 6) { // this logic also isnt really needed
 
                 String twoMiddle = input.substring(input.length() / 2 - 1, input.length() / 2 + 1); // two middle characters
 
@@ -52,15 +60,25 @@ public class Main {
         
     }
 
-    public static String read() {
+    public static String read() throws Exception {
 
         System.out.print("Enter a string: ");
 
         Scanner scanner = new Scanner(System.in);
 
-        String nextLine = scanner.nextLine();
+        String nextLine;
 
-        scanner.close(); // make compiler happy
+        try {
+
+            nextLine = scanner.nextLine();
+
+            scanner.close(); // make compiler happy
+
+        } catch (Exception e) {
+
+            throw new Exception("Error reading input");
+
+        }
 
         return nextLine;
 
