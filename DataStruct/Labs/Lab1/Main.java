@@ -12,7 +12,7 @@ public class Main {
 
         processor.processItems();
 
-        System.out.println(processor.getResults());
+        processor.getResults().forEach((word) -> System.out.println(word)); // print on a new line for each one
 
     }
     
