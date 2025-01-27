@@ -28,7 +28,7 @@ public class InputProcessor implements GeneralProcessor {
 
         for (String item : words) {
 
-            items.add(item);
+            if (item.length() != 0) items.add(item);
 
         }
 
