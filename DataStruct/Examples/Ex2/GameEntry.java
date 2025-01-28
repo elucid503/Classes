@@ -1,4 +1,4 @@
-
+package Examples.Ex2;
 public class GameEntry {
 
 	private String name;

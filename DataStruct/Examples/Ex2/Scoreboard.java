@@ -1,4 +1,4 @@
-
+package Examples.Ex2;
 public class Scoreboard {
 
 	private int numEntries = 0;

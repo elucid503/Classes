@@ -1,6 +1,6 @@
+package Examples.Ex2;
 
 public class TestHarness {
-
 	
 	public static void main(String [] args) {
 		
