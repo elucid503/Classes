@@ -1,4 +1,4 @@
-
+import java.util.LinkedList;
 public class TestHarness {
 	
 	private static LinkedList l = new LinkedList();
