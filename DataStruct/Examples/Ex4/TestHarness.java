@@ -1,7 +1,7 @@
-import java.util.LinkedList;
+package Examples.Ex4;
 public class TestHarness {
 	
-	private static LinkedList l = new LinkedList();
+	private static yLinkedList l = new yLinkedList();
 	
 	public static void main(String args[]) {
 		

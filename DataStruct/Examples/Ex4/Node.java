@@ -1,3 +1,5 @@
+package Examples.Ex4;
+
 public class Node {
 	Node next;
 	int data;
