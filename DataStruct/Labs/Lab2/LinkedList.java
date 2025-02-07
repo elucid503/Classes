@@ -27,46 +27,39 @@ public class LinkedList<T> implements List<T>{
 	@Override
 	public boolean delete(T key) {
 
-		if (head == null) {
-			return false;
-		}
-
-		if (head.getData() == key) {
-			head = head.getNext();
-			return true;
-		}
-
 		Node<T> current = head;
+
+		if (current == null) {
+
+			return false; // nothing to delete
+
+		}
+
+		if (current.getData().equals(key)) {
+
+			// item found, forget the head and link to the next
+
+			head = current.getNext();
+			return true;
+
+		}
 
 		while (current.getNext() != null) {
 
-			if (current.getNext().getData() == key) {
-				// Skip the next node
+			if (current.getNext().getData().equals(key)) {
+
+				// item found, forget the next and link to the next of next
 
 				current.setNext(current.getNext().getNext());
 				return true;
 
 			}
-			
-			current = current.getNext();
 
+			current = current.getNext();
 		}
 
-		//if head == null, nothing in the list, return
-		 
-		//if head.data == incoming data
-		// set head = the node head points to.  return.
-				
-		//else
-		//create a new local node with the head
-		//step thru each element in the list.  if the next is non null
-		//check if that data == the data we want to delete
-		//if yes, this is the element to delete.  
-		//do that by setting current.next = current.next.next
-		//else, set current to the next element in the list
+		return false; // not found
 		
-		//remove this
-		return false;
 	}
 
 	@Override
@@ -74,9 +67,11 @@ public class LinkedList<T> implements List<T>{
 		
 		Node<T> current = head;
 
-		while(current != null) {
-			System.out.println(current.getData());
+		while (current != null) {
+			
+			System.out.println(current.getData().toString()); // should always call .toString since generic
 			current = current.getNext();
+
 		}
 
 		return;
