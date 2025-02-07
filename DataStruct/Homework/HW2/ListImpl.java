@@ -32,18 +32,27 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 		} else {
 
-			// we assume that head must be null here
+			// can't find previous for some reason, so we'll just insert at tail 
 
-			ListNode<T> newNode = new ListNode<T>(key, head);
-			head = newNode;
+			ListNode<T> newNode = new ListNode<T>(key, null);
 
+			ListNode<T> current = head;
+
+			while (current.getNext() != null) {
+
+				current = current.getNext();
+
+			}
+
+			current.setNext(newNode);
+			
 		}
 
 		return true; 
 
 	}
 
-	// Search is looking for value Key in the list
+	// Search is looking for value key in the list
 	// It will return the pointer to the previous node where key is (or should be)
 	// or null if key is or should be in the first node
 
@@ -54,7 +63,7 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 		while (curr != null && !done) {
 
-			if (curr.getData().compareTo(key) < 0) {
+			if (curr.getData().compareTo(key) < 0) { // in ascending order
 
 				prev = curr;
 				curr = curr.getNext();
@@ -75,22 +84,7 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 		ListNode<T> prev = search(key);
 
-		if (prev == null) {
-
-			// we can assume that head is null
-
-			if (head != null && head.getData().equals(key)) {
-
-				head = head.getNext();
-				return true;
-
-			} else {
-
-				return false;
-
-			}
-
-		} else {
+		if (prev != null) {
 
 			ListNode<T> curr = prev.getNext();
 
@@ -105,8 +99,22 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 			}
 
+		} else {
+
+			// we will remove the head if it equals, if not, fail
+
+			if (head != null && head.getData().equals(key)) {
+
+				head = head.getNext();
+				return true;
+
+			} else {
+
+				return false;
+
+			}
+
 		}
-		
 
 	}
 
