@@ -21,32 +21,32 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 		}
 
-		ListNode<T> prev = search(key);
+		if (head.getData().compareTo(key) > 0) {
 
-		if (prev != null) {
-		
-			ListNode<T> next = prev.getNext();
-			ListNode<T> newNode = new ListNode<T>(key, next);
+			// head is greater, so we need to insert before head
 
-			prev.setNext(newNode);
+			head = new ListNode<T>(key, head);
+			return true;
 
-		} else {
-
-			// can't find previous for some reason, so we'll just insert at tail 
-
-			ListNode<T> newNode = new ListNode<T>(key, null);
-
-			ListNode<T> current = head;
-
-			while (current.getNext() != null) {
-
-				current = current.getNext();
-
-			}
-
-			current.setNext(newNode);
-			
 		}
+
+		ListNode<T> beforeCurrent = null;
+		ListNode<T> current = head;
+
+		while (current != null && current.getData().compareTo(key) < 0) {
+
+			// while current is less than key, keep moving forward
+			// we must preserve the previous node since we will later insert using its ref to next
+
+			beforeCurrent = current;
+			current = current.getNext();
+
+		}
+
+		// now, we know that prev is the last node that is less than key 
+
+		ListNode<T> newNode = new ListNode<T>(key, current);
+		beforeCurrent.setNext(newNode);
 
 		return true; 
 
