@@ -10,46 +10,29 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 	}
 
-	// insert adds a node into the list in key order
+	// insert adds a node into the list in key order using the prev method
 
 	public boolean insert(T key) {
 
-		if (head == null) {
-			
-			head = new ListNode<T>(key, null);
-			return true;
+		ListNode<T> prev = search(key);
 
-		}
+		if (prev == null) {
 
-		if (head.getData().compareTo(key) > 0) {
-
-			// head is greater, so we need to insert before head
+			// nothing, so we insert at the head
 
 			head = new ListNode<T>(key, head);
 			return true;
 
-		}
+		} else {
 
-		ListNode<T> beforeCurrent = null;
-		ListNode<T> current = head;
+			// insert after prev (last node less than key)
 
-		while (current != null && current.getData().compareTo(key) < 0) {
-
-			// while current is less than key, keep moving forward
-			// we must preserve the previous node since we will later insert using its ref to next
-
-			beforeCurrent = current;
-			current = current.getNext();
+			ListNode<T> newNode = new ListNode<T>(key, prev.getNext());
+			prev.setNext(newNode);
+			return true;
 
 		}
-
-		// now, we know that prev is the last node that is less than key 
-
-		ListNode<T> newNode = new ListNode<T>(key, current);
-		beforeCurrent.setNext(newNode);
-
-		return true; 
-
+		
 	}
 
 	// Search is looking for value key in the list
@@ -86,14 +69,18 @@ public class ListImpl<T extends Comparable<T>> implements List<T> {
 
 		if (prev != null) {
 
-			ListNode<T> curr = prev.getNext();
+			ListNode<T> current = prev.getNext();
 
-			if (curr != null && curr.getData().equals(key)) {
+			// if current is not null and equals key, remove it
 
-				prev.setNext(curr.getNext());
+			if (current != null && current.getData().equals(key)) {
+
+				prev.setNext(current.getNext());
 				return true;
 
 			} else {
+
+				// key not found
 
 				return false;
 
