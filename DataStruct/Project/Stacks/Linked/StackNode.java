@@ -1,4 +1,4 @@
-package Project.Stacks;
+package Project.Stacks.Linked;
 
 public class StackNode {
 

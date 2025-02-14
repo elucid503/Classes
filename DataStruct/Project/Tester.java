@@ -2,8 +2,8 @@ package Project;
 
 import java.util.ArrayList;
 
-import Project.Stacks.ArrayStack;
-import Project.Stacks.LinkedStack;
+import Project.Stacks.Array.ArrayStack;
+import Project.Stacks.Linked.LinkedStack;
 
 public class Tester {
 
