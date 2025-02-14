@@ -1,11 +1,11 @@
-package Project.Stack;
+package Project.Stacks;
 
-public class YourStackNode {
+public class StackNode {
 
 	// DO NOT CHANGE THIS!
 
 	private Integer item;
-	private YourStackNode next;
+	private StackNode next;
 	
 	public Integer getItem() {
 
@@ -13,7 +13,7 @@ public class YourStackNode {
 
 	}
 	
-	public YourStackNode getNext() {
+	public StackNode getNext() {
 
 		return next;
 
@@ -25,7 +25,7 @@ public class YourStackNode {
 
 	}
 	
-	public void setNext(YourStackNode node) {
+	public void setNext(StackNode node) {
 		
 		next = node;
 		

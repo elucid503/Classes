@@ -1,6 +1,6 @@
 package Project;
 
-public interface SimpleRPNCalculator {
+public interface Calculator {
 
 	public String calculate(String inputString);
 	

@@ -1,6 +1,6 @@
-package Project.Stack;
+package Project.Stacks;
 
-public interface YourStack {
+public interface Stack {
 
 	public void push (Integer i);
 	public Integer pop();

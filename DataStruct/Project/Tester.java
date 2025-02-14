@@ -2,10 +2,10 @@ package Project;
 
 import java.util.ArrayList;
 
-import Project.Stack.YourArrayListStack;
-import Project.Stack.YourLinkedListStack;
+import Project.Stacks.ArrayStack;
+import Project.Stacks.LinkedStack;
 
-public class RPNTester {
+public class Tester {
 
 	public static void main(String[] args) {
 
@@ -13,17 +13,17 @@ public class RPNTester {
 
 		System.out.println("Testing ArrayList version");
 		
-		YourRPNCalculator calc = new YourRPNCalculator(new YourArrayListStack());
+		CalculatorImpl calc = new CalculatorImpl(new ArrayStack());
 		testRPNCalculator(calc);
 
 		System.out.println("Testing LinkedList version");
 		
-		calc = new YourRPNCalculator(new YourLinkedListStack());
+		calc = new CalculatorImpl(new LinkedStack());
 		testRPNCalculator(calc);
 
 	}
 	
-	private static void testRPNCalculator(SimpleRPNCalculator calc) {
+	private static void testRPNCalculator(Calculator calc) {
 
 		ArrayList<String> testExpressions = new ArrayList<>();
 

@@ -1,12 +1,12 @@
-package Project.Stack;
+package Project.Stacks;
 
 import java.util.ArrayList;
 
-public class YourArrayListStack implements YourStack {
+public class ArrayStack implements Stack {
 
 	// YOU MUST USE THIS IMPLEMENTATION - just code the methods
 
-	ArrayList<Integer> stackArray = new ArrayList<>();
+	ArrayList<Integer> arr = new ArrayList<>();
 
 	@Override
 	public void push(Integer i) {

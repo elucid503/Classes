@@ -1,10 +1,10 @@
-package Project.Stack;
+package Project.Stacks;
 
-public class YourLinkedListStack implements YourStack {
+public class LinkedStack implements Stack {
 
 	// YOU MUST USE THIS IMPLEMENTATION - just code the methods
 	
-	private YourStackNode head = null;
+	private StackNode head = null;
 	private Integer size = 0;
 	
 	@Override

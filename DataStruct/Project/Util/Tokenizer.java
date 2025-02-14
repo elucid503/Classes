@@ -2,7 +2,7 @@ package Project.Util;
 
 import java.util.ArrayList;
 
-public interface RPNStringTokenizer {
+public interface Tokenizer {
 
 	public static ArrayList<String> tokenize(String expression) {
 
