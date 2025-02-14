@@ -1,3 +1,5 @@
+package Examples.Generics;
+
 import java.util.ArrayList;
 import java.util.List;
 
