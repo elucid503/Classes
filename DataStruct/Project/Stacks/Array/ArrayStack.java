@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import Project.Stacks.Stack;
 
-public class ArrayStack implements Stack {
+public class ArrayStack<T> implements Stack<T> {
 
-	ArrayList<Integer> arr = new ArrayList<>();
+	ArrayList<T> arr = new ArrayList<>();
 
 	@Override
-	public void push(Integer i) {
+	public void push(T i) {
 
 		if (arr.size() == 0) {
 
@@ -24,7 +24,7 @@ public class ArrayStack implements Stack {
 	}
 
 	@Override
-	public Integer pop() {
+	public T pop() {
 
 		if (arr.size() == 0) {
 
@@ -32,7 +32,7 @@ public class ArrayStack implements Stack {
 
 		} else {
 
-			Integer item = arr.get(0); // we must store the first item
+			T item = arr.get(0); // we must store the first item
 			arr.remove(0); // and then remove it
 
 			return item;
@@ -42,9 +42,16 @@ public class ArrayStack implements Stack {
 	}
 
 	@Override
-	public Integer size() {
+	public int size() {
 
 		return arr.size();
+
+	}
+
+	@Override
+	public void clear() {
+
+		arr.clear();
 
 	}
 

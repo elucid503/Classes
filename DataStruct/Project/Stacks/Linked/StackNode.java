@@ -1,29 +1,29 @@
 package Project.Stacks.Linked;
 
-public class StackNode {
+public class StackNode<T> {
 
-	private Integer item;
-	private StackNode next;
+	private T item;
+	private StackNode<T> next;
 	
-	public Integer getItem() {
+	public T getItem() {
 
 		return item;
 
 	}
 	
-	public StackNode getNext() {
+	public StackNode<T> getNext() {
 
 		return next;
 
 	}
 	
-	public void setItem(Integer i) {
+	public void setItem(T i) {
 		
 		item = i;
 
 	}
 	
-	public void setNext(StackNode node) {
+	public void setNext(StackNode<T> node) {
 		
 		next = node;
 		

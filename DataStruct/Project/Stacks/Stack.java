@@ -1,10 +1,12 @@
 package Project.Stacks;
 
-public interface Stack {
+public interface Stack<T> {
 
-	public void push (Integer i);
-	public Integer pop();
+	public void push (T i);
+	public T pop();
 	
-	public Integer size();
+	public int size();
+
+	public void clear();
 	
 }

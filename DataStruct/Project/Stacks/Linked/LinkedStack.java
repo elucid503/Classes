@@ -2,17 +2,17 @@ package Project.Stacks.Linked;
 
 import Project.Stacks.Stack;
 
-public class LinkedStack implements Stack {
+public class LinkedStack<T> implements Stack<T> {
 		
-	private StackNode top = null;
-	private Integer size = 0;
+	private StackNode<T> top = null;
+	private int size = 0;
 	
 	@Override
-	public void push(Integer i) {
+	public void push(T i) {
 
 		// creating a new node first
 		
-		StackNode node = new StackNode();
+		StackNode<T> node = new StackNode<>();
 		node.setItem(i);
 
 		// if the stack is empty, set the top to the new node
@@ -35,7 +35,7 @@ public class LinkedStack implements Stack {
 	}
 
 	@Override
-	public Integer pop() {
+	public T pop() {
 
 		// get rid of the top and return it
 
@@ -45,7 +45,7 @@ public class LinkedStack implements Stack {
 
 		} else {
 
-			Integer item = top.getItem();
+			T item = top.getItem();
 			top = top.getNext();
 
 			size -= 1; // decrement size
@@ -57,9 +57,17 @@ public class LinkedStack implements Stack {
 	}
 
 	@Override
-	public Integer size() {
+	public int size() {
 
 		return size;
+
+	}
+
+	@Override
+	public void clear() {
+
+		top = null;
+		size = 0;
 
 	}
 

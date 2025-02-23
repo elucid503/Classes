@@ -2,7 +2,7 @@ package Project;
 
 public interface Calculator {
 
-	public String calculate(String inputString);
+	public String calculate(String inputString) throws Exception;
 	
 	/*
 	 * RPN (Reverse Polish Notation) is a postfix method of expression mathematical functions.
