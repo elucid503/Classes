@@ -1,16 +1,16 @@
 package Project.Util;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import Project.Util.Operators;
 
 public interface Tokenizer {
 
-	public static ArrayList<String> tokenize(String exp) {
+	public static Map<ArrayList<String>> tokenize(String exp) {
 
-		// take a string.  If it is valid RPN stuff - integers or operators
-		// - then put them in a list for processing.
-		// anything bad (not int or one of the operators we like) and return a null.
+		// takes in an expression and parses operators and numbers
 
 		ArrayList<String> tokens = new ArrayList<>();
 		
@@ -18,12 +18,32 @@ public interface Tokenizer {
 
 		for (String s : splitExp) {
 
-			// we must check if the string is an integer or an operator
+			Operators op = Operators.getOperator(s);
 
+			if (op != null) {
+
+				tokens.add(s);
+
+			} else {
+
+				try {
+
+					// might be a number
+
+					Integer.parseInt(s); // just here to fail if not a number 
+					tokens.add(s);
+
+				} catch (NumberFormatException e) {
+
+					return null; // invalid input
+
+				}
+
+			}
+			
 		}
 		
-		// YOU WRITE THIS!
-		return null;
+		return {};
 
 	}
 	

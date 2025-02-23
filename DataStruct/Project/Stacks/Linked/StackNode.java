@@ -2,8 +2,6 @@ package Project.Stacks.Linked;
 
 public class StackNode {
 
-	// DO NOT CHANGE THIS!
-
 	private Integer item;
 	private StackNode next;
 	
