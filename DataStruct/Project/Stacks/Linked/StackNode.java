@@ -7,25 +7,25 @@ public class StackNode<T> {
 	
 	public T getItem() {
 
-		return item;
+		return this.item;
 
 	}
 	
 	public StackNode<T> getNext() {
 
-		return next;
+		return this.next;
 
 	}
 	
 	public void setItem(T i) {
 		
-		item = i;
+		this.item = i;
 
 	}
 	
 	public void setNext(StackNode<T> node) {
 		
-		next = node;
+		this.next = node;
 		
 	}
 

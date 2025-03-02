@@ -3,7 +3,6 @@ package Project.Stacks.Array;
 import java.util.ArrayList;
 
 import Project.Stacks.Stack;
-
 public class ArrayStack<T> implements Stack<T> {
 
 	ArrayList<T> arr = new ArrayList<>();
@@ -11,13 +10,13 @@ public class ArrayStack<T> implements Stack<T> {
 	@Override
 	public void push(T i) {
 
-		if (arr.size() == 0) {
+		if (this.arr.size() == 0) {
 
-			arr.add(i); // empty, so we just add
+			this.arr.add(i); // empty, so we just add
 
 		} else {
 
-			arr.add(0, i); // arraylist makes it easy to insert at 0
+			this.arr.add(0, i); // arraylist makes it easy to insert at 0
 
 		}
 
@@ -26,14 +25,14 @@ public class ArrayStack<T> implements Stack<T> {
 	@Override
 	public T pop() {
 
-		if (arr.size() == 0) {
+		if (this.arr.size() == 0) {
 
 			return null; // empty
 
 		} else {
 
-			T item = arr.get(0); // we must store the first item
-			arr.remove(0); // and then remove it
+			T item = this.arr.get(0); // we must store the first item
+			this.arr.remove(0); // and then remove it
 
 			return item;
 
@@ -44,14 +43,14 @@ public class ArrayStack<T> implements Stack<T> {
 	@Override
 	public int size() {
 
-		return arr.size();
+		return this.arr.size();
 
 	}
 
 	@Override
 	public void clear() {
 
-		arr.clear();
+		this.arr.clear();
 
 	}
 

@@ -2,14 +2,14 @@ package Project.Util;
 
 public enum Operators {
 
-    // Operators
+    // figured an enum would be useful here
 
     Add("+"),
     Subtract("-"),
     Multiply("*"),
     Divide("/");
                     
-    // Enum stuff 
+    // required java enum stuff 
 
     public String operator;
 
@@ -18,6 +18,8 @@ public enum Operators {
         this.operator = operator;
 
     }
+
+    // accessors
     
     public static Operators getOperator(String s) {
         

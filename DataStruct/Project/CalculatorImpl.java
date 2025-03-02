@@ -1,51 +1,60 @@
 package Project;
 
 import java.util.List;
+
 import Project.Stacks.Stack;
+
 import Project.Util.Tokenizer;
 import Project.Util.Operators;
 
 public class CalculatorImpl implements Calculator {
 
-    Stack<Integer> stack = null;
+    Stack<Number> stack = null;
 
-	public CalculatorImpl(Stack<Integer> s) {
+	public CalculatorImpl(Stack<Number> s) {
 		
 		stack = s;
 		
     }
 
     @Override
-	public String calculate(String inputString) throws Exception {
+	public Number calculate(String inputString, int precision) throws Exception {
 
 		// First, clear the stack of any previous calculations
 
-		stack.clear(); // I went ahead and added this method to the Stack interface. they both now implement it
+		this.stack.clear(); // I went ahead and added this method to Stack
         
-		List<String> tokens = Tokenizer.tokenize(inputString);
+		List<String> tokens = Tokenizer.tokenize(inputString); // get token representation of input string
 
 		for (String token : tokens) {
 
 			if (Operators.getOperator(token) != null) {
 
-				if (stack.size() < 2) {
+				// operator, so do a calculation
+
+				if (this.stack.size() < 2) {
+
+					// not enough operands
 
 					throw new Exception("Underflow: " + inputString);
 
 				}
 
-				int b = stack.pop();
-				int a = stack.pop();
+				Number b = this.stack.pop(); // generally important to pull b first for correct order of operations
+				Number a = this.stack.pop();
+				
+				Number result = performCalculation(a, b, Operators.getOperator(token));
 
-				int result = performCalculation(a, b, Operators.getOperator(token));
-
-				stack.push(result);
+				this.stack.push(result);
 
 			} else {
 
+				// not an operator, so try to push an operand
+				// if fails, invalid token
+
 				try {
 
-					stack.push(Integer.parseInt(token));
+					this.stack.push(Float.parseFloat(token));
 
 				} catch (NumberFormatException e) {
 
@@ -57,11 +66,17 @@ public class CalculatorImpl implements Calculator {
 
 		}
 		
-		if (stack.size() == 1) {
+		if (this.stack.size() == 1) {
 
-			return Integer.toString(stack.pop());
+			// Round and return 
+
+			Float floatResult = this.stack.pop().floatValue();
+			
+			return Math.round(floatResult * Math.pow(10, precision)) / Math.pow(10, precision);
 
 		} else {
+
+			// leftover tokens
 
 			throw new Exception("Overflow: " + inputString);
 
@@ -69,36 +84,38 @@ public class CalculatorImpl implements Calculator {
 				
     }
 
-	private int performCalculation(int a, int b, Operators operator) throws Exception {
+	private Number performCalculation(Number a, Number b, Operators operator) throws Exception {
+
+		// pretty standard logic here
 
 		switch (operator) {
 
 			case Add:
 
-				return a + b;
+				return a.floatValue() + b.floatValue();
 
 			case Subtract:
 
-				return a - b; 
+				return a.floatValue() - b.floatValue();
 
 			case Multiply:
 
-				return a * b;
-
+				return a.floatValue() * b.floatValue();
 
 			case Divide:
 
-				if (b == 0) {
+				if (b.floatValue() == 0) {
 
 					throw new Exception("Division by zero");
 
 				}
 
-				return a / b;
+				return a.floatValue() / b.floatValue();
 
 			default:
 
-				return 0; // Consider throwing an exception for unsupported operators
+				// no op
+				return 0;
 
 		}
 

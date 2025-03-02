@@ -1,7 +1,6 @@
 package Project.Stacks.Linked;
 
 import Project.Stacks.Stack;
-
 public class LinkedStack<T> implements Stack<T> {
 		
 	private StackNode<T> top = null;
@@ -17,20 +16,20 @@ public class LinkedStack<T> implements Stack<T> {
 
 		// if the stack is empty, set the top to the new node
 
-		if (top == null) {
+		if (this.top == null) {
 
-			top = node;
+			this.top = node;
 
 		} else {
 
 			// otherwise, add to top, reassigning the top
 
-			node.setNext(top);
-			top = node;
+			node.setNext(this.top);
+			this.top = node;
 
 		}
 
-		size += 1; // increment size
+		this.size += 1; // increment size
 
 	}
 
@@ -39,16 +38,16 @@ public class LinkedStack<T> implements Stack<T> {
 
 		// get rid of the top and return it
 
-		if (top == null) {
+		if (this.top == null) {
 
 			return null; // empty
 
 		} else {
 
-			T item = top.getItem();
-			top = top.getNext();
+			T item = this.top.getItem();
+			this.top = this.top.getNext();
 
-			size -= 1; // decrement size
+			this.size -= 1; // decrement size
 
 			return item;
 
@@ -59,15 +58,15 @@ public class LinkedStack<T> implements Stack<T> {
 	@Override
 	public int size() {
 
-		return size;
+		return this.size;
 
 	}
 
 	@Override
 	public void clear() {
 
-		top = null;
-		size = 0;
+		this.top = null;
+		this.size = 0;
 
 	}
 

@@ -3,7 +3,6 @@ package Project.Util;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public interface Tokenizer {
 
 	public static List<String> tokenize(String exp) {
