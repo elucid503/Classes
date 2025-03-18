@@ -24,6 +24,8 @@ public class EmployeeReporterImpl implements EmployeeReporter {
     @Override
     public void displayEmployeesById() {
 
+        System.out.println("Employees sorted by ID: ");
+
         // gets stream 
         // sorts by id using our specific id comparator 
         // then prints using our static util method above
@@ -34,6 +36,8 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
     @Override
     public void displayEmployeesByFirstName() {
+
+        System.out.println("Employees sorted by first name: ");
 
         // copy of first but with other comparator
 
@@ -46,6 +50,8 @@ public class EmployeeReporterImpl implements EmployeeReporter {
     @Override
     public void displayEmployeesByLastName() {
 
+        System.out.println("Employees sorted by last name: ");
+
         // same thing ... and so on
 
         employees.stream()
@@ -57,6 +63,8 @@ public class EmployeeReporterImpl implements EmployeeReporter {
     @Override
     public void displayEmployeesByTitle() {
 
+        System.out.println("Employees sorted by title: ");
+
         employees.stream()
             .sorted(new EmployeeTitleComparator())
             .forEach(employee -> printEmployee(employee));
@@ -65,6 +73,8 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
     @Override
     public void displayEmployeesBySalary() {
+
+        System.out.println("Employees sorted by salary: ");
 
         employees.stream()
             .sorted(new EmployeeSalaryComparator())
