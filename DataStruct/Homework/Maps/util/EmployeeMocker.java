@@ -7,7 +7,7 @@ import Homework.Maps.entity.Employee;
 
 public class EmployeeMocker {
 
-	public static List<Employee>listOf8Employees  = new ArrayList<>();
+	public static List<Employee>listOf8Employees = new ArrayList<>();
 	
 	static {
  		

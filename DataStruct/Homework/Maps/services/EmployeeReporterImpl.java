@@ -1,6 +1,10 @@
 package Homework.Maps.services;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import Homework.Maps.comparators.EmployeeFirstNameComparator;
 import Homework.Maps.comparators.EmployeeIdComparator;
@@ -26,11 +30,13 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
         System.out.println("Employees sorted by ID: ");
 
-        // gets stream 
-        // sorts by id using our specific id comparator 
-        // then prints using our static util method above
+        // using comparator
 
-        employees.stream().sorted(new EmployeeIdComparator()).forEach(employee -> printEmployee(employee)); // use our util print to show result
+        Set<Employee> employeeSet = new TreeSet<>(new EmployeeIdComparator());
+
+        employeeSet.addAll(employees);
+
+        employeeSet.forEach(employee -> printEmployee(employee));
         
     }
 
@@ -39,12 +45,11 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
         System.out.println("Employees sorted by first name: ");
 
-        // copy of first but with other comparator
+        Set<Employee> employeeSet = new TreeSet<>(new EmployeeFirstNameComparator());
+        employeeSet.addAll(employees);
 
-        employees.stream()
-            .sorted(new EmployeeFirstNameComparator())
-            .forEach(employee -> printEmployee(employee));
-
+        employeeSet.forEach(employee -> printEmployee(employee));
+        
     }
 
     @Override
@@ -52,11 +57,10 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
         System.out.println("Employees sorted by last name: ");
 
-        // same thing ... and so on
+        Set<Employee> employeeSet = new TreeSet<>(new EmployeeLastNameComparator());
+        employeeSet.addAll(employees);
 
-        employees.stream()
-            .sorted(new EmployeeLastNameComparator())
-            .forEach(employee -> printEmployee(employee));
+        employeeSet.forEach(employee -> printEmployee(employee));
 
     }
 
@@ -65,9 +69,10 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
         System.out.println("Employees sorted by title: ");
 
-        employees.stream()
-            .sorted(new EmployeeTitleComparator())
-            .forEach(employee -> printEmployee(employee));
+        Set<Employee> employeeSet = new TreeSet<>(new EmployeeTitleComparator());
+        employeeSet.addAll(employees);
+
+        employeeSet.forEach(employee -> printEmployee(employee));
 
     }
 
@@ -76,9 +81,10 @@ public class EmployeeReporterImpl implements EmployeeReporter {
 
         System.out.println("Employees sorted by salary: ");
 
-        employees.stream()
-            .sorted(new EmployeeSalaryComparator())
-            .forEach(employee -> printEmployee(employee));
+        Set<Employee> employeeSet = new TreeSet<>(new EmployeeSalaryComparator());
+        employeeSet.addAll(employees);
+
+        employeeSet.forEach(employee -> printEmployee(employee));
 
     }
 

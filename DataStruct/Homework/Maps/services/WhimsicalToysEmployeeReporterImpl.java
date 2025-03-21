@@ -5,10 +5,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.Collections;
 
 import Homework.Maps.comparators.EmployeeIdComparator;
-
+import Homework.Maps.comparators.EmployeeSalaryComparator;
 import Homework.Maps.entity.Employee;
 import Homework.Maps.util.EmployeeMocker;
 
@@ -25,13 +27,15 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
     @Override
     public void pickRandomEmployeeAndGiveFreeToy() {
 
-        // using arraylist of employees for this
+        // shuffle
+        
+        Collections.shuffle(employees);
 
-        int random = (int) Math.random() * employees.size();
+        // now since random, first employee is winner
 
-        Employee employee = employees.get(random);
+        Employee winner = employees.get(0);
 
-        System.out.print("Free toy given to: "); printEmployee(employee);
+        System.out.print("Free toy given to: "); printEmployee(winner);
         
     }
 
@@ -42,7 +46,8 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
 
         System.out.print("Unique first names: ");
 
-        Set<String> firstNames = employees.stream().map(employee -> employee.getFirstName()).collect(Collectors.toSet());
+        Set<String> firstNames = new TreeSet<>();
+        employees.forEach(employee -> firstNames.add(employee.getFirstName()));
 
         firstNames.forEach(firstName -> System.out.print(firstName + ", "));
 
@@ -55,7 +60,9 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
 
         // using a map to get the first names and their occurances
 
-        Map<String, Integer> firstNameCount = new HashMap<>();
+        Map<String, Integer> firstNameCount = new TreeMap<>();
+
+        // go thru all employees 
 
         employees.forEach(employee -> {
 
@@ -63,9 +70,13 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
 
             if (firstNameCount.containsKey(firstName)) {
 
+                // increment the count
+
                 firstNameCount.put(firstName, firstNameCount.get(firstName) + 1);
 
             } else {
+
+                // start the count 
 
                 firstNameCount.put(firstName, 1);
 
@@ -73,12 +84,16 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
 
         });
 
-        System.out.print("Popular names and occurances: ");
+        // Remove all values == 1 and reverse order to be descending
 
-        firstNameCount.forEach((name, count) -> System.out.print(name + ": " + count + ", "));
-       
-        System.out.print("\n");
+        firstNameCount.values().removeIf(value -> value == 1);
+        
+        // printing results
+        
+        System.out.print("Number of employees with popular first names: ");
 
+        firstNameCount.forEach((firstName, count) -> System.out.print(firstName + ": " + count + ", "));
+               
         System.out.print("\n");
 
     }
@@ -86,15 +101,19 @@ public class WhimsicalToysEmployeeReporterImpl implements WhimsicalToysEmployeeR
     @Override
     public void displayWaitingListForLacrosseTickets() {
 
-        // we can use a queue to put the employees in order of their id
+        // we will assume that employees with the highest salary are on the waiting list
 
-        // found this method in the docs. it will create a linked queue
+        // using .reversed() (built into comparator class, useful...) to get the employees
+        // with the highest salary first
 
-        Queue<Employee> waitingList = employees.stream().sorted(new EmployeeIdComparator()).collect(Collectors.toCollection(() -> new java.util.LinkedList<>()));
+        Set<Employee> waitingList = new TreeSet<>(new EmployeeSalaryComparator().reversed());
+        waitingList.addAll(employees);
+
+        // will only print top 10. a stream can be created, then a limit can be used
 
         System.out.print("Waiting list for lacrosse tickets: ");
 
-        waitingList.forEach(employee -> printEmployee(employee));
+        waitingList.stream().limit(10).forEach(employee -> printEmployee(employee));
         
     }
     
