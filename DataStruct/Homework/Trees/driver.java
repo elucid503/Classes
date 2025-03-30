@@ -1,8 +1,8 @@
 package Homework.Trees;
 
-public class driver {
+public class Driver {
 	
-	 public static void main(String args[]) {
+	public static void main(String args[]) {
 	    
 		TreeNode root2 = new TreeNode(5);
 		
