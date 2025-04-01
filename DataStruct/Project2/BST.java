@@ -7,10 +7,12 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 	public BST() {
 
 		root = null;
-		
+
 	}
 
 	public void inOrder() {
+
+		// public to wrap result of private function with [ ]
 
 		System.out.print("[ ");
 		inOrder(root);
@@ -19,88 +21,222 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 		System.out.println();
 
 	}
-	
+
 	private void inOrder(BSTNode<T> cur) {
 
 		if (cur != null) {
-			//TODO:
-			//Recursively traverse the current node's left subtree.
-			//print the current node data
-			//Recursively traverse the current node's right subtree.
+
+			inOrder(cur.left); // traverse left
+
+			System.out.print(cur.data + " "); // root/current goes in middle
+
+			inOrder(cur.right); // traverse right
+
 		}
 
 	}
 
 	public boolean insert(T data) {
-		// nothing in the tree add new node and connect it to the root
 
+		// nothing in the tree.... we will add the new node and connect it to the root
 
-		//TODO
-		
-		// tree not empty, search for a parent to connect to
-		
-		//TODO
-		
-		// there is a root node, so parent cannot be null
-		// when parent is null return false meaning failure to insert
+		if (this.root == null) {
 
-		//TODO
+			this.root = new BSTNode<T>(data);
+			return true;
 
-		// determine if the new value is going as left or right child
-		
-		//TODO
+		}
 
-		return false; // because found duplicate
+		// tree not empty... search for a parent to connect to
+
+		BSTNode<T> parent = search(data)[0];
+		BSTNode<T> cur = this.root;
+
+		if (parent == null) {
+
+			return false;
+
+		} else {
+
+			// now we have to search down the tree to find a place to add the new value
+
+			while (cur != null) { // this operates in a while loop b/c we need to get to the point where cur is finally found
+
+				if (data.compareTo(cur.data) < 0) {
+
+					// new value is less than current, so go left
+					// if left is null, then we can add the new value here
+
+					if (cur.left == null) {
+
+						cur.setLeft(new BSTNode<T>(data));
+						return true;
+
+					} else {
+
+						cur = cur.left;
+
+					}
+
+				} else if (data.compareTo(cur.data) > 0) {
+
+					// new value is greater than current, so go right
+					// if right is null, then we can add the new value here
+
+					if (cur.right == null) {
+
+						cur.setRight(new BSTNode<T>(data));
+						return true;
+
+					} else {
+
+						cur = cur.right;
+
+					}
+
+				} else {
+
+					// new value is equal to current, so we have a duplicate
+
+					return false;
+
+				}
+
+			}
+
+		}
+
+		return false; // some other dreadful thing happened
+
 	}
 
-	// Search success when cur.data is not <, not >, 
-	// As it then must be EQUAL 
-	// in this case return parent to the matched cur
+	// Enhanced Search function which returns both the found node and its parent
+	// simple change made to the interface to account for the tuple-like return value 
 
-	// gurgle thru the tree & find the parent node of this T.  
-	// return it
-	
-	public BSTNode<T> search(T data) {
+	public BSTNode<T>[] search(T data) {
 
-		BSTNode<T> cur = root;
-		BSTNode<T> parent = null;
+		BSTNode<T>[] result = new BSTNode[2]; // jdk likes to complain abt type casting here. can ignore 
 
-		while (cur != null) {
-			
-			if (data.compareTo(cur.data) < 0) {
+		result[0] = null; // parent
+		result[1] = null; // cur
+		
+		while (result[0] != null) {
 
-				parent = cur;
-				cur = cur.left;
+			if (data.compareTo(result[0].data) < 0) {
 
-			} else if (data.compareTo(cur.data) > 0) {
+				result[0] = result[1];
+				result[1] = result[1].left;
 
-				parent = cur;
-				cur = cur.right;
+			} else if (data.compareTo(result[1].data) > 0) {
+
+				result[0] = result[1];
+				result[1] = result[1].right;
 
 			} else {
 
-				return parent;
+				return result;
 
 			}
-			
+
 		}
 
-		return parent;
+		return result;
 
-	} 
-	
-	// Helper function to find minimum value node in the subtree rooted at `cur`
-    public BSTNode<T> inOrderSuccessor(BSTNode<T> cur)
-    {
-        //TODO - update
-    	return null;
-    }
-	
-	public boolean remove(T key) {
-
-		//TODO - update
-		return false;
 	}
-	
+
+	// Helper function to find minimum value node in the subtree rooted at `cur`
+
+	public BSTNode<T> inOrderSuccessor(BSTNode<T> cur) {
+
+		if (cur == null) {
+
+			return null;
+
+		}
+
+		// Traverse the left subtree to find the minimum value node
+
+		while (cur.left != null) {
+
+			cur = cur.left;
+
+		}
+
+		return cur;
+
+	}
+
+	public boolean remove(T data) {
+
+		BSTNode<T>[] searchResults = search(data);
+
+		BSTNode<T> parent = searchResults[0];
+		BSTNode<T> cur = searchResults[1];
+
+		if (cur == null) {
+
+			return false; // not found
+
+		}
+
+		// no children
+
+		if (cur.left == null && cur.right == null) {
+
+			if (parent == null) { // deleting the root node
+
+				root = null;
+
+			} else if (parent.left == cur) {
+
+				parent.left = null;
+
+			} else {
+
+				parent.right = null;
+
+			}
+
+		}
+
+		// two children
+
+		else if (cur.left != null && cur.right != null) {
+
+			BSTNode<T> successor = inOrderSuccessor(cur.right);
+
+			T successorData = successor.getData();
+
+			remove(successorData);
+
+			cur.data = successorData;
+
+		}
+
+		// one child
+		
+		else { 
+
+			BSTNode<T> child = (cur.left != null) ? cur.left : cur.right; // ternary to get the correct child
+
+			if (parent == null) { // deleting the root node
+
+				root = child;
+
+			} else if (parent.left == cur) {
+
+				parent.left = child;
+
+			} else {
+
+				parent.right = child;
+
+			}
+
+		}
+
+		return true; // deletion successful
+
+	}
 
 }

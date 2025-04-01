@@ -6,7 +6,7 @@ public interface iBST<T extends Comparable<T>> {
 
 	public boolean insert(T data);
 
-	public BSTNode<T> search(T data);
+	public BSTNode<T>[] search(T data);
 
 	public BSTNode<T> inOrderSuccessor(BSTNode<T> cur);
 
