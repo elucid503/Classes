@@ -54,6 +54,8 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 		if (parent == null) {
 
+			System.out.println( "Returning false, parent is null for data: " + data);
+
 			return false;
 
 		} else {
@@ -115,30 +117,33 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 	public BSTNode<T>[] search(T data) {
 
-		BSTNode<T>[] result = new BSTNode[2]; // jdk likes to complain abt type casting here. can ignore 
+		BSTNode<T> parent = null;
+		BSTNode<T> cur = root;
 
-		result[0] = null; // parent
-		result[1] = null; // cur
-		
-		while (result[0] != null) {
+		while (cur != null) {
 
-			if (data.compareTo(result[0].data) < 0) {
+			if (data.compareTo(cur.data) < 0) {
 
-				result[0] = result[1];
-				result[1] = result[1].left;
+				parent = cur;
+				cur = cur.left;
 
-			} else if (data.compareTo(result[1].data) > 0) {
+			} else if (data.compareTo(cur.data) > 0) {
 
-				result[0] = result[1];
-				result[1] = result[1].right;
+				parent = cur;
+				cur = cur.right;
 
 			} else {
 
-				return result;
+				break;
 
 			}
 
 		}
+
+		BSTNode<T>[] result = new BSTNode[2];
+		
+		result[0] = parent;
+		result[1] = cur;
 
 		return result;
 
@@ -172,6 +177,8 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 		BSTNode<T> parent = searchResults[0];
 		BSTNode<T> cur = searchResults[1];
+
+		// we dont need the compareTo here since search() will find the parent regardless
 
 		if (cur == null) {
 

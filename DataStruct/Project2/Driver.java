@@ -78,7 +78,6 @@ public class Driver {
 	 	// [ 0 1 2 5 8 9 10 16 17 18 21 22 28 37 39 41 45 46 47 48 50 51 52 53 61 65 66 69 73 75 78 79 80 84 86 93 94 97 99 ]
 
 	}
-	
 
 	public static void TEST_REMOVE_CASE_1_AND_3() {
 		
