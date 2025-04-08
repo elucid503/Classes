@@ -55,8 +55,18 @@ public class Driver {
 		Washington.addneighbours(Atlanta);
 		Washington.addneighbours(Dallas);
 
-		// Graph 
+		// Check if path exists 
+		
+		GraphUtils<String> graphUtils = new GraphUtils<>();
 
+		System.out.println(" ------------------ Routes Available ----------------- ");
+
+		System.out.println("Austin -> Chicago: " + graphUtils.pathExists(Austin, Chicago));
+		System.out.println("Denver -> Austin: " + graphUtils.pathExists(Denver, Austin));
+		System.out.println("Houston -> Dallas: " + graphUtils.pathExists(Houston, Dallas));
+		System.out.println("Austin -> Atlanta: " + graphUtils.pathExists(Austin, Atlanta));
+		System.out.println("Denver -> Dallas: " + graphUtils.pathExists(Denver, Dallas));
+		System.out.println("Washington -> Houston: " + graphUtils.pathExists(Washington, Houston));
 
 	}
 	

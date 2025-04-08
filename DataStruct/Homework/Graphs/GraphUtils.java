@@ -1,28 +1,50 @@
 package Homework.Graphs;
 
-import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Set;
+
+import java.util.HashSet;
+import java.util.LinkedList;
 
 public class GraphUtils<T> {
 
 	public Boolean pathExists(GraphNode<T> targetFromNode, GraphNode<T> targetToNode) {
  
 		Queue<GraphNode<T>> graphNodeQueue = new LinkedList<>();
+		Set<GraphNode<T>> visitedNodes = new HashSet<>();
 		
-
-		// create queue to manage nodes
-		// create set to manage visitedNodes
-
 		//start from the targetFromNode
-			
-			//for all neighbors:
-				//check if visited.  If not, add to the queue.  
-				//if targetToNode has been visited, return true
-			
-			
+
+		graphNodeQueue.add(targetFromNode);
+		visitedNodes.add(targetFromNode);
+
+		while (!graphNodeQueue.isEmpty()) {
+
+			GraphNode<T> currentNode = graphNodeQueue.poll();
+
+			if (currentNode == targetToNode) {
+
+				return true;
+
+			}
+
+			// Get all neighbors and enqueue if not already seen
+
+			for (GraphNode<T> neighbor : currentNode.getNeighbours()) {
+
+				if (!visitedNodes.contains(neighbor)) {
+
+					graphNodeQueue.add(neighbor);
+					visitedNodes.add(neighbor);
+
+				}
+
+			}
+
+		}
 		
-		//if u get here
-		return false;
+		return false; // Not found
+
 	}
 
 }
