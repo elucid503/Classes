@@ -12,7 +12,7 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 	public void inOrder() {
 
-		// public to wrap result of private function with [ ]
+		// wraps result of private function with [ ]
 
 		System.out.print("[ ");
 		inOrder(root);
@@ -38,9 +38,9 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 	public boolean insert(T data) {
 
-		// nothing in the tree.... we will add the new node and connect it to the root
-
 		if (this.root == null) {
+
+			// nothing in the tree.... we will add the new node and connect it to the root
 
 			this.root = new BSTNode<T>(data);
 			return true;
@@ -49,13 +49,13 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 		// tree not empty... search for a parent to connect to
 
-		BSTNode<T> parent = search(data)[0];
+		BSTNode<T> parent = search(data); 
 		BSTNode<T> cur = this.root;
 
 		if (parent == null) {
 
-			System.out.println( "Returning false, parent is null for data: " + data);
-
+			// this means that the data already exists in the tree, and we will ignore it
+			
 			return false;
 
 		} else {
@@ -98,7 +98,7 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 				} else {
 
-					// new value is equal to current, so we have a duplicate
+					// also a duplicate case
 
 					return false;
 
@@ -112,27 +112,68 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 	}
 
-	// Enhanced Search function which returns both the found node and its parent
-	// simple change made to the interface to account for the tuple-like return value 
+	// Searches for an element and returns its parent
 
-	public BSTNode<T>[] search(T data) {
+	public BSTNode<T> search(T data) {
 
-		BSTNode<T> parent = null;
 		BSTNode<T> cur = root;
+		BSTNode<T> parent = null; // parent node
 
 		while (cur != null) {
 
 			if (data.compareTo(cur.data) < 0) {
 
-				parent = cur;
+				parent = cur; // set parent to current node
+				cur = cur.left; // go left
+
+			} else if (data.compareTo(cur.data) > 0) {
+
+				parent = cur; // set parent to current node
+				cur = cur.right; // go right
+
+			} else {
+
+				// the key already exists (since == 0)
+				// no duplicates, so null
+
+				return null;
+
+			}
+
+		}
+		
+		return parent; // return the parent node
+
+	}
+	
+	// Enhanced search function to return parent and current node
+
+	private BSTNode<T>[] enhancedSearch(T data) {
+
+		BSTNode<T>[] resultTupleLikeArr = new BSTNode[2]; // [parent, current]
+
+		BSTNode<T> cur = root;
+		BSTNode<T> parent = null;
+
+		while (cur != null) {
+
+			// same thing as above, but with some extra logic to keep track of the parent
+			// ideally, the original search method could be like this, but the interface disagrees
+			// this is useful internally, though
+
+			if (data.compareTo(cur.data) < 0) {
+
+				parent = cur; 
 				cur = cur.left;
 
 			} else if (data.compareTo(cur.data) > 0) {
 
-				parent = cur;
+				parent = cur; 
 				cur = cur.right;
 
 			} else {
+
+				// duplicate. important not to return here, since we might already have what we need
 
 				break;
 
@@ -140,12 +181,10 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 		}
 
-		BSTNode<T>[] result = new BSTNode[2];
-		
-		result[0] = parent;
-		result[1] = cur;
+		resultTupleLikeArr[0] = parent;
+		resultTupleLikeArr[1] = cur; 
 
-		return result;
+		return resultTupleLikeArr;
 
 	}
 
@@ -173,7 +212,7 @@ public class BST<T extends Comparable<T>> implements iBST<T> {
 
 	public boolean remove(T data) {
 
-		BSTNode<T>[] searchResults = search(data);
+		BSTNode<T>[] searchResults = enhancedSearch(data);
 
 		BSTNode<T> parent = searchResults[0];
 		BSTNode<T> cur = searchResults[1];

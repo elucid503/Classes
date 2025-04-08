@@ -63,6 +63,7 @@ public class Driver {
 		BST<Integer> tree2 = new BST<>();
 			
 		// insert 50 random ints from 0 to 99
+		// there may be duplicates, but that's a nice test case too
 
 		for (int i = 0; i < 50; i++) {
 
@@ -70,9 +71,7 @@ public class Driver {
 
 		}
 		
-		
 		tree2.inOrder(); // visit all the tree nodes
-		
 
 		// Expected Output:
 	 	// [ 0 1 2 5 8 9 10 16 17 18 21 22 28 37 39 41 45 46 47 48 50 51 52 53 61 65 66 69 73 75 78 79 80 84 86 93 94 97 99 ]
@@ -153,47 +152,3 @@ public class Driver {
 	}
 
 }
-
-/*
- 
-  			4
-  		  /   \
-  		2      6
-      /  \    / \
-     1    3  5   7
- * 
- * output:
- * 
- * ------------------------ Program Output ------------------------
-
-TEST_STRING_INSERTS
-
-[ abacus cat dog doggie grass hello stan tree zebra ]
-
-[ abacus cat dog doggie grass hello house stan television tree zebra ]
-
-TEST_INT_INSERTS
-
-[ 2 4 5 6 7 11 12 14 15 17 21 22 24 29 32 35 36 38 43 48 50 51 54 57 60 61 62 65 67 69 72 73 76 80 84 86 88 98 99 ]
-
-TEST_REMOVE_CASE_1_AND_3
-
-[ 1 2 3 4 5 6 7 ]
-
-[ 2 3 4 5 6 7 ]
-
-[ 3 4 5 6 7 ]
-
-[ 3 4 6 7 ]
-
-[ 3 4 7 ]
-
-TEST_REMOVE_CASE_1_AND_3
-
-[ 1 2 3 4 5 6 7 ]
-
-[ 1 3 4 5 6 7 ]
-
-[ 1 3 4 5 7 ]
-
-*/
