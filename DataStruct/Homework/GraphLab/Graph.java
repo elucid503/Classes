@@ -101,7 +101,7 @@ public class Graph {
 			
 		}
 
-		return hops.get(toNode) == null ? -1 : hops.get(toNode); 
+		return hops.get(toNode) == null ? -1 : hops.get(toNode); // ternary to simplify returning -1 if not found
 				
 	}
 
