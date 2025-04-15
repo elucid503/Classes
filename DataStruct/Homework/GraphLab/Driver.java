@@ -6,17 +6,21 @@ public class Driver {
 
 	public static void main(String[] args) {
 
+		System.out.println("-------------- Graph Creation (Part 1) --------------\n");
+
 		TESTbuildGraph();
+
+		System.out.println("\n-------------- Graph Created --------------\n");
 		
 		TESTdescribeGraph();
-
-		System.out.println("\n--- PART 1 --- \n");
 		
 		TESTfewestHops("Washington", "Atlanta");
 
-		System.out.println("\n--- PART 2 --- \n");
+		System.out.println("\n-------------- Graph Update (Part 2) --------------\n");
 
 		TESTupdateGraph();
+
+		System.out.println("\n-------------- Graph Updated --------------\n");
 
 		TESTdescribeGraph();
 
@@ -28,6 +32,8 @@ public class Driver {
 
 		graph = new Graph();
 
+		System.out.println("-------------- Adding Nodes --------------\n");
+
 		TESTaddNode("Austin");
 		TESTaddNode("Houston");
 		TESTaddNode("Dallas");
@@ -35,6 +41,8 @@ public class Driver {
 		TESTaddNode("Washington");
 		TESTaddNode("Denver");
 		TESTaddNode("Chicago");
+
+		System.out.println("\n-------------- Adding Edges -------------\n");
 
 		TESTaddEdge("Austin", "Dallas", 200);
 		TESTaddEdge("Dallas", "Austin", 200);
@@ -50,11 +58,12 @@ public class Driver {
 	public static void TESTupdateGraph() {
 
 		TESTaddEdge("Dallas", "Houston", 550);
-		TESTfewestHops("Washington", "Atlanta");
 
 	}
 	
 	public static void TESTfewestHops(String nodeFrom, String nodeTo) {
+
+		System.out.println("\n-------------- Fewest Hops --------------\n");
 
 		System.out.println("Fewest hops in the graph from " + nodeFrom + " to " + nodeTo + " is " + graph.fewestHops(new GraphNode(nodeFrom), new GraphNode(nodeTo)) + " hops");
 
