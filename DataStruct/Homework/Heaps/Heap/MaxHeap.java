@@ -81,18 +81,17 @@ public class MaxHeap {
  
     public void insert(int element) {
          
-        if (this.Heap.length - 1 < size) { return; } // We should be checking if full here to avoid runtime errors when inserting
+        if (this.Heap.length - 1 < this.size) { return; } // We should be checking if full here to avoid runtime errors when inserting
         
         this.Heap[++size] = element; // inserts at bottom layer and rightmost side (end)
-
-        int currentPos = size; // Current position of the element
+        int currentPos = this.size; 
 
         // this is NOT recursive, but uses a while loop to run when current is greater than parent
 
         while (this.Heap[currentPos] > this.Heap[this.parent(currentPos)]) {
 
             this.swap(currentPos, this.parent(currentPos)); 
-            currentPos = this.parent(currentPos); // Updating the current value for next time
+            currentPos = this.parent(currentPos); // updating the current value for next time
 
         }
     
