@@ -120,8 +120,6 @@ public class MaxHeap {
     }
  
     public int extractMax() {
-
-        if (size == 0) { return -1; } // no elements edge case
         
         int maxValue = Heap[FRONT]; // get the prev value (max)
         
