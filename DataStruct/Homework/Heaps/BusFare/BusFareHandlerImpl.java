@@ -1,5 +1,4 @@
 package BusFare;
-
  
 import Heap.MaxHeap; 
 
@@ -10,9 +9,9 @@ public class BusFareHandlerImpl implements BusFareHandler {
 	BusFareHandlerImpl() {
 
 		heap = new MaxHeap(10);
+
 	}
 
-	//think about this..    want a random assortment
 	public void initChange() {
 
 		heap.insert(5);
@@ -21,34 +20,56 @@ public class BusFareHandlerImpl implements BusFareHandler {
 		heap.insert(50);
 		heap.insert(1);
 		heap.insert(10);
-		heap.insert(2);   // yes we have a 2 cent coin
+		heap.insert(2); // yes we have a 2 cent coin
 
 	}
 
 	/**
 	 * EXACT FARE ONLY!
 	 * bus doesn't take pennies or dimes
-	 */
-	
+	*/
 	public int payBusFare(int sum) {
-
-		//TODO - recursively come up with exactly 180 by fetching the 
-		// next highest coin from your pocket ( maxheap )
-		// note, some additional logic needed to handle no pennies or dimes.
 	
+		if (sum == 180) {
+
+			return sum; // good
+
+		}
+
+		// no pennies or dimes
+
+		if (sum == 1 || sum == 10) {
+
+			return payBusFare(sum);
+
+		}
+
+		int paidWith = heap.extractMax();
 		
-		//TODO replace
-		return -1;
+		sum += paidWith;
+
+		// we can't go overboard, so we will regress
+
+		if (sum > 180) {
+
+			return sum - heap.extractMax();
+
+		}
+
+		return payBusFare(sum); // do again
+
 	}
 
 	public int getMaxFromHeap() {
-		//TODO - retrieve and return the next value from your maxheap
-		//TODO replace:
-		return -1;
+
+		return heap.extractMax();
+
 	}
 
 	public void grabChange() {
-		//TODO - kick off the processby loading the pile of coins into your MaxHeap
+
+		this.initChange();
+
 	}
 
 }

@@ -11,7 +11,6 @@ public class BusFareTester {
 
 	}
 	
-	
 	private static void testBusFareHandler (BusFareHandler fare) {
 	
 		System.out.println("You wanna ride the bus?  Exact change only! \n");		

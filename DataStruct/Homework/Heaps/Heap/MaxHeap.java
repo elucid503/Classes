@@ -13,9 +13,9 @@ public class MaxHeap {
         this.maxsize = maxsize;
         this.size = 0;
 
-        Heap = new int[this.maxsize + 1];
+        this.Heap = new int[this.maxsize + 1];
 
-        Heap[0] = Integer.MAX_VALUE;
+        this.Heap[0] = Integer.MAX_VALUE;
 
     }
  

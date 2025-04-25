@@ -2,7 +2,6 @@ package BusFare;
 
 public interface BusFareHandler {
 
- 
 	/**
 	 * Initializes your available change.
 	 * 
@@ -12,8 +11,6 @@ public interface BusFareHandler {
 	
 	public void grabChange();
 
-	
-	
 	/**
 	 * get the largest coin from your maxHeap
 	 * 
@@ -21,8 +18,6 @@ public interface BusFareHandler {
 	 */
 	
 	public int getMaxFromHeap();
-	
-
 	
 	/**
 	 * (1) The param for this method should be the result returned from getMaxFromHeap()
@@ -35,8 +30,5 @@ public interface BusFareHandler {
 	 * @param coin
 	 */
 	public int payBusFare(int coin);
-	
-	
-	
 	
 }
