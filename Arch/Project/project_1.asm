@@ -139,7 +139,8 @@ sum_numbers:
     # pretty self-explanatory procedure to sum two numbers and return the result in v0
 
     add $v0, $a0, $a1
-    jr $ra
+    
+    jr $ra # returning to line after call/jal
 
 print_array:
 
@@ -194,3 +195,5 @@ exit:
 
     li $v0, 10 # exit opcode
     syscall
+
+

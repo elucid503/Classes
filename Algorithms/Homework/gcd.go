@@ -1,3 +1,5 @@
+// gcd.go
+
 package main
 
 import "fmt";
@@ -20,3 +22,5 @@ func main() {
 	fmt.Println(my_gcd(48, 18)) // 6
 
 }
+
+
